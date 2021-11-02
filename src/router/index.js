@@ -14,18 +14,6 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    component: Agency,
-    children: [
-      {
-        path: '/agency',
-        alias: '',
-        name: 'AgencyHome',
-        component: AgencyHome
-      },
-    ]
-  },
-  {
-    path: '/urban',
     component: Urban,
     children: [
       {
@@ -33,6 +21,18 @@ const routes = [
         alias: '',
         name: 'UrbanHome',
         component: UrbanHome
+      },
+    ]
+  },
+  {
+    path: '/agency',
+    component: Agency,
+    children: [
+      {
+        path: '/agency',
+        alias: '',
+        name: 'AgencyHome',
+        component: AgencyHome
       },
     ]
   },
