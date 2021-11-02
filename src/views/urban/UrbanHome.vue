@@ -269,7 +269,8 @@
                         </ul>
                     </div>
                     <div class="col s12 l4 safe-img-wrapper tab-small-img-wrapper">
-                        <img src="../../assets/images/safe-img.png" alt="safe-img" class="sect-img" data-aos="fade-up" />
+                        <img src="../../assets/images/safe-img.png" alt="safe-img" class="sect-img n-img-1" data-aos="fade-up" />
+                        <img src="../../assets/images/safe-img-2.png" alt="safe-img" class="sect-img n-img-2" data-aos="fade-up" />
                     </div>
                 </div>
             </div>

@@ -149,8 +149,8 @@
                 </div>
                 <div class="col s12 pad0-xs footer-hr-div">
                     <hr />
-                    <img src="../assets/images/payrail-angala.png" alt="Payrail and Angala" class="payrail-anagala n-img-1" />
-                    <img src="../assets/images/payrail-angala-light.png" alt="Payrail and Angala" class="payrail-anagala n-img-2" />
+                    <img src="../assets/images/urban-angala.png" alt="Payrail and Angala" class="payrail-anagala n-img-1" />
+                    <img src="../assets/images/urban-angala-light.png" alt="Payrail and Angala" class="payrail-anagala n-img-2" />
                     <hr />
                 </div>
                 <div class="regulators-section col pad0-xs s12">
