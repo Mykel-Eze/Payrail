@@ -1,0 +1,16 @@
+:root {
+    --pry-color: #F4A11D;
+}
+#business-contents .subscribe-form-wrapper {
+    margin-left: 0;
+}
+
+.agency-logo, .agency-download-btn-wrapper {
+    display: initial !important;
+}
+.agency-stuff {
+    display: flex !important;
+}
+.urban-logo, .urban-download-btn-wrapper, .urban-stuff {
+    display: none !important;
+}

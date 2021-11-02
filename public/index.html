@@ -4,14 +4,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="icon" href="<%= BASE_URL %>icon-2.png">
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Your branchless next-door banking built for Super agents and agents; enabling multiple type transactions in an easy, convenient, and cost-effective manner. "
+    />
+    <meta name="author" content="Payrail" />
+    <title>Payrail</title>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but Payrail doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <script src="jquery.min.js"></script>
+    <script src="theme.js"></script>
+    <script>
+      $(window).scroll(function () {
+          $('nav.trans-nav').toggleClass('scrolled-nav', $(this).scrollTop() > 50);
+      });
+    </script>
   </body>
 </html>

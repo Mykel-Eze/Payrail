@@ -1,0 +1,332 @@
+div#urban-wrapper {
+    --pry-color: #C92135;
+    /* --sec-color: #F4A11D; */
+}
+.visible-text-m-l {
+    display: initial;
+}
+.hidden-text-m-l {
+    display: none;
+}
+#urban-contents button.nav-pry-btn.black-bg.btn {
+    color: white;
+    background-color: var(--pry-color);
+    border-color: var(--pry-color);
+}
+.theme-dark #urban-contents button.nav-pry-btn.black-bg.btn {
+    color: white;
+    background-color: var(--pry-color);
+    border-color: var(--pry-color);
+}
+
+.agency-logo, .agency-download-btn-wrapper, .agency-stuff {
+    display: none !important;
+}
+.urban-logo, .urban-download-btn-wrapper {
+    display: initial !important;
+}
+.urban-stuff {
+    display: flex !important;
+}
+
+#urban-contents .subscribe-form-wrapper {
+    width: 80%;
+    margin: 30px 0 0;
+}
+
+#urban-contents button.btn.subscribe-submit.pry-bg {
+    background-color: var(--sec-color);
+    color: white;
+}
+
+#urban-contents .phone-hand-img-div {
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+#urban-contents .phone-hand-img-div > img.phone-hand {
+    height: calc(100vh - 120px);
+    max-height: 600px;
+    width: auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* #urban-contents section#home .home-container {
+    position: relative;
+    overflow: hidden;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/bg-strokes.png);
+} */
+
+#urban-contents .phone-hand-img-div {
+    position: relative;
+    /* overflow: hidden;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/bg-strokes.png); */
+}
+.bg-strokes {
+    position: absolute;
+    width: 90%;
+    left: 25%;
+}
+
+.yellow-line {
+    position: absolute;
+    top: 0;
+}
+.red-line {
+    position: absolute;
+    bottom: 10px;
+}
+
+#urban-contents #mid-sect-1 {
+    background-color: var(--sec-color);
+    color: white;
+    position: relative;
+    padding: 50px 0 100px;
+}
+#urban-contents #mid-sect-1::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../images/white-bg-pattern.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.05;
+}
+#urban-contents #mid-sect-1 h3.sect-title {
+    color: white;
+    position: relative;
+}
+
+.benefits-img-container {
+    position: relative;
+    margin-top: -150px;
+}
+img.center-phone {
+    width: 75%;
+    min-width: 320px;
+    position: relative;
+    z-index: 1;
+    opacity: 1 !important;
+}
+.benefits-img {
+    position: absolute;
+    z-index: 0;
+    width: 30%;
+}
+#benefits-1.benefits-img, #benefits-1a.benefits-img {
+    left: -30%;
+    top: 0;
+    width: 60%;
+    /* max-width: 200px; */
+}
+#benefits-2.benefits-img, #benefits-2a.benefits-img {
+    right: -20%;
+    top: 120px;
+    width: 50%;
+    /* max-width: 200px; */
+}
+#benefits-3.benefits-img, #benefits-3a.benefits-img {
+    left: -10%;
+    bottom: -60px;
+    width: 40%;
+    /* max-width: 200px; */
+}
+#benefits-4.benefits-img, #benefits-4a.benefits-img {
+    right: -30%;
+    bottom: -100px;
+    width: 65%;
+    /* max-width: 200px; */
+}
+
+#urban-contents #sect-2 img.sect-img {
+    width: 100%;
+}
+
+.sect1-list {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 15px;
+}
+h4.slb-title {
+    font-family: var(--font-bold);
+    font-size: 24px;
+    letter-spacing: -1px;
+}
+.sect-title-holder {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#urban-contents ul.sect-list.sec-list-grid > li {
+    font-size: 18px;
+}
+#urban-contents ul.sect-list.sec-list-grid img.tick-box {
+    width: 24px;
+    margin-right: 15px;
+    position: relative;
+    top: -2px;
+}
+#urban-contents #join-payrail .black-wrapper::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../images/white-bg-pattern.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.12;
+}
+
+#urban-contents #sect-4 ul.sect-list > li {
+    display: block;
+}
+ul.sect-list > li .sect-list-title-div img {
+    width: 58px;
+    margin-right: -15px;
+    position: relative;
+    top: 2px;
+}
+.sect-list-title-div > span {
+    font-family: var(--font-bold);
+    font-size: 22px;
+}
+
+#changing-text {
+    color: var(--pry-color);
+}
+
+@media (min-width: 993px) {
+    .benefits-img-container {
+        margin-bottom: 60px;
+    }
+    #urban-contents #sect-2 img.sect-img {
+        width: 115%;
+        max-width: initial;
+    }
+    .sect1-list {
+        position: relative;
+        top: 20px;
+    }
+    #urban-contents #sect-3 img.sect-img {
+        width: 82%;
+    }   
+    #urban-contents .debit-cards-txt-div {
+        position: relative;
+        top: 120px;
+    }
+    #urban-contents #sect-3 {
+        padding-bottom: 20px;
+    }
+    #urban-contents #sect-4 {
+        padding-top: 30px;
+    }    
+}
+@media(min-width: 601px) {
+    .join-sub-wrapper, .sect-flex-align {
+        display: flex;
+        align-items: center;
+    }
+    .safe-img-wrapper {
+        text-align: right;
+    }
+}
+@media(max-width: 992px) {
+    #urban-contents .sect-flex-align {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media(min-width: 601px) and (max-width: 992px) {
+    .tab-small-img-wrapper {
+        text-align: center;
+    }
+    .tab-small-img-wrapper img {
+        width: 50% !important;
+    }
+    #sect-2 .sect1-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #sect-2-a .sect1-list {
+        grid-template-columns: 1fr 1fr;
+    }
+    #sect-2-a .flex-div-coloumn-xs {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width: 600px) {
+    .visible-text-m-l {
+        display: none;
+    }
+    .hidden-text-m-l {
+        display: initial;
+    }
+    #urban-contents form#subscribe-form .flex-div.input-field {
+        flex-direction: row;
+        margin: 0;
+        background: #F9F9F9;
+        box-sizing: border-box;
+        border-radius: 28.5px;
+    }
+    #urban-contents #mid-sect-1 {
+        padding: 50px 0 80px;
+    }
+    #urban-contents input#subscriber-email {
+        border: none;
+        background-color: transparent !important;
+    }
+    .benefits-img-container {
+        position: relative;
+        margin-top: -120px;
+    }
+    .sect1-list {
+        grid-gap: 10px;
+    }
+    #sect-2-a .sect1-list {
+        margin-top: -50px;
+        text-align: justify;
+    }
+    #urban-contents .subscribe-form-wrapper {
+        width: 100%;
+    }
+    #urban-contents #home button.btn.subscribe-submit.pry-bg {
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        min-width: auto;
+        background-image: url(../images/right-arrow.png);
+        background-size: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 10px;
+    }
+    #urban-contents #home button.btn.subscribe-submit.pry-bg img {
+        width: 100%;
+    }
+    .slb-content {
+        text-align: justify;
+    }
+    #urban-contents .sec-list-grid {
+        grid-template-columns: 100%;
+        grid-gap: 20px;
+    }
+    #urban-contents #sect-4 .sec-list-grid {
+        grid-gap: 0px;
+    }
+    .debit-card-txt {
+        margin-bottom: 40px;
+    }
+}
