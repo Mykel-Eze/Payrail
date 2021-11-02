@@ -4,8 +4,8 @@
             <div class="container">
                 <div class="nav-wrapper">
                     <router-link to="/" class="brand-logo" @click="scrollToTop()">
-                        <img src="../assets/images/payrail-agency-logo-white-2.png" alt="Payrail Agency" class="logo n-img-1" />
-                        <img src="../assets/images/payrail-agency-logo-black.svg" alt="Payrail Agency" class="logo n-img-2" />
+                        <img src="../assets/images/payrail-agency-logo-white-2.png" alt="Payrail Agency" class="logo n-img-2" />
+                        <img src="../assets/images/payrail-agency-logo-black.svg" alt="Payrail Agency" class="logo n-img-1" />
                     </router-link>
 
                     <ul id="nav-mobile" class="hide-on-med-and-down ul-nav">
