@@ -8,6 +8,7 @@ nav.trans-nav{
     z-index: 10;
     font-family: var(--font);
     font-weight: bold;
+    top: 0;
 }
 nav ul a:hover {
     background-color: transparent;

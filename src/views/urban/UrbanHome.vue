@@ -1,7 +1,13 @@
 <template>
     <div class="contents" id="urban-contents">
         <!--==== Home Section  ====-->
-        <section id="home" class="scrollspy">
+        <section id="home" class="scrollspy rel">
+            <div class="lottie-bg">
+                <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_wfzj5a5q.json`"
+                    style="width:100%; height:100vh"
+                >
+                </lottie-vue-player>
+            </div>
             <div class="row rel">
                 <div class="container home-container">
                     <div class="col s12 l6" id="home-txt-side">
@@ -40,9 +46,17 @@
                         </div>
                     </div>
                     <div class="col s12 m8 offset-m2 l6 offset-l0 rel" id="home-img-side">
-                        <div class="phone-hand-img-div">
+                        <!-- <div class="phone-hand-img-div">
                             <img src="../../assets/images/hand-phone-2a.png" alt="phone and hand" class="phone-hand" />
                             <img src="../../assets/images/bg-strokes.png" alt="strokes" class="bg-strokes" />
+                        </div> -->
+                        <div>
+                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_4j5fkcao.json`"
+                                style="width:100%; height:600px"
+                                :background= "options.backgroundColor"
+                                :speed="options.speed"
+                            >
+                            </lottie-vue-player>
                         </div>
                     </div>
                 </div>
@@ -83,7 +97,8 @@
                         <img src="../../assets/images/mobile-phone-a.png" alt="phone" class="center-phone"  data-aos="fade-up" />
                     </div>
                     <div class="col s12 visible-xs-sm pad0-xs benefits-img-container center">
-                        <img src="../../assets/images/full-benefits-img.png" alt="section-img" class="sect-img" data-aos="fade-up" />
+                        <img src="../../assets/images/full-benefits-img.png" alt="section-img" class="sect-img n-img-1" data-aos="fade-up" />
+                        <img src="../../assets/images/full-benefits-img-2.png" alt="section-img" class="sect-img n-img-2" data-aos="fade-up" />
                     </div>
                 </div>
             </div>
@@ -98,8 +113,12 @@
                         <h3 class="sect-title">Thrift Savings <br class="visible-xs"/> 
                             ( <span id="changing-text">
                                 àjo
-                                <!-- <TextLoop children={["àjo", "isusu", "adashe"]} /> -->
                             </span> ) 
+                            <!-- <TextLoop>
+                                    <span>àjo</span>
+                                    <span>isusu</span>
+                                    <span>adashe</span>
+                                </TextLoop> -->
                         </h3>
                         <p class="sect-desc">
                             An easy, stress free way to save alongside people you trust. Amp up your savings and achieve 
@@ -283,7 +302,7 @@
                 <div class="container">
                     <div class="col s12 m10 offset-m1 pad0">
                         <div class="col s12 m6 hidden-xs">
-                            <img src="../../assets/images/urban-card-hand.png" alt="payrail debit card" class="full-width payrail-card-hand" data-aos="fade-up" />
+                            <img src="../../assets/images/urban-card-hand2.png" alt="payrail debit card" class="full-width payrail-card-hand" data-aos="fade-up" />
                         </div>
                         <div class="col s12 m6">
                             <div class="debit-cards-txt-div">
@@ -294,7 +313,7 @@
                             </div>
                         </div>
                         <div class="col s12 m6 visible-xs">
-                            <img src="../../assets/images/urban-card-hand.png" alt="payrail debit card" class="full-width payrail-card-hand" />
+                            <img src="../../assets/images/urban-card-hand2.png" alt="payrail debit card" class="full-width payrail-card-hand" />
                         </div>
                     </div>
                 </div>
@@ -310,7 +329,7 @@
                         <div class="col s12 m10 offset-m1 pad0-xs join-sub-wrapper rel">
                             <div class="col s12 m7">
                                 <h4 class="sect-title white-txt">
-                                    Sign up for free. <br /> Download the Payrail app and experience financial ease
+                                    Sign up to experience financial bliss. <br /> Download the Payrail app and experience financial ease
                                 </h4> 
                             </div>
                             <div class="col s12 m5">
@@ -337,21 +356,85 @@
 </template>
 
 <script>
-    import M from 'materialize-css';
+    // import M from 'materialize-css';
     import AOS from 'aos';
     import 'aos/dist/aos.css';
 
     export default {
         name: "AgencyHome",
+        components: {},
         mounted() {
             AOS.init();
 
-            var elemScrollspy = document.querySelectorAll('.scrollspy');
-            M.Scrollspy.init(elemScrollspy);
+            // var elemScrollspy = document.querySelectorAll('.scrollspy');
+            // M.Scrollspy.init(elemScrollspy);
+
+                // array with texts to type in typewriter
+                var dataText = [ "àjo", "isusu", "adashe"];
+                
+                // type one text in the typwriter
+                // keeps calling itself until the text is finished
+                function typeWriter(text, i, fnCallback) {
+                    // chekc if text isn't finished yet
+                    if (i < (text.length)) {
+                    // add next character to h1
+                    document.querySelector("#changing-text").innerHTML = text.substring(0, i+1);
+
+                    // wait for a while and call this function again for next character
+                    setTimeout(function() {
+                        typeWriter(text, i + 1, fnCallback)
+                    }, 100);
+                    }
+                    // text finished, call callback if there is a callback function
+                    else if (typeof fnCallback == 'function') {
+                    // call callback after timeout
+                    setTimeout(fnCallback, 1000);
+                    }
+                }
+                // start a typewriter animation for a text in the dataText array
+                function StartTextAnimation(i) {
+                    if (typeof dataText[i] == 'undefined'){
+                        setTimeout(function() {
+                        StartTextAnimation(0);
+                        }, 500);
+                    }
+                    // check if dataText[i] exists
+                    if (i < dataText[i].length) {
+                    // text exists! start typewriter animation
+                    typeWriter(dataText[i], 0, function(){
+                    // after callback (and whole text has been animated), start next text
+                    StartTextAnimation(i + 1);
+                    });
+                    }
+                }
+                // start the text animation
+                StartTextAnimation(0);
+        },
+        data() {
+            return {
+                options: {
+                    minimizable: false,
+                    playerSize: "standard",
+                    backgroundColor: 'transparent',
+                    speed: 1,
+                    backgroundStyle: 'color',
+                    theme: {
+                        controlsView: "standard",
+                        active: "light",
+                        light: {
+                            color: '#3D4852',
+                            backgroundColor: '#fff',
+                            opacity: '0.7',
+                        },
+                        dark: {
+                            color: '#fff',
+                            backgroundColor: '#202020',
+                            opacity: '0.7',
+                        }
+                    }
+                }
+            }
         }
     }
 </script>
 
-<style>
-
-</style>

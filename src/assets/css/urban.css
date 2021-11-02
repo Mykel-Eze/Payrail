@@ -52,6 +52,34 @@ div#urban-wrapper {
     z-index: 1;
 }
 
+#urban-contents #home::before{
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgba(255,255,255,0) 100%);
+    z-index: 1;
+}
+#urban-contents #home::after{
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 35%, rgba(255,255,255,1) 100%);
+    z-index: 1;
+}
+#urban-contents #home .lottie-bg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    opacity: 0.5;
+    transform: rotate(30deg) translateX(20px);
+}
+
 /* #urban-contents section#home .home-container {
     position: relative;
     overflow: hidden;
@@ -89,6 +117,7 @@ div#urban-wrapper {
     color: white;
     position: relative;
     padding: 50px 0 100px;
+    z-index: 1;
 }
 #urban-contents #mid-sect-1::before {
     position: absolute;
@@ -97,10 +126,9 @@ div#urban-wrapper {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url(../images/white-bg-pattern.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../images/animated-bg-pattern.gif);
+    /* background-size: 50%; */
+    background-repeat: repeat;
     opacity: 0.05;
 }
 #urban-contents #mid-sect-1 h3.sect-title {
@@ -183,10 +211,9 @@ h4.slb-title {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url(../images/white-bg-pattern.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../images/animated-bg-pattern.gif);
+    /* background-size: 50%; */
+    background-repeat: repeat;
     opacity: 0.12;
 }
 
@@ -208,7 +235,18 @@ ul.sect-list > li .sect-list-title-div img {
     color: var(--pry-color);
 }
 
+
+.w-full.relative {
+    position: relative;
+    top: 80px;
+}
+
 @media (min-width: 993px) {
+    #urban-contents .phone-hand-img-div > img.phone-hand {
+        max-height: 650px;
+        position: relative;
+        top: 30px;
+    }   
     .benefits-img-container {
         margin-bottom: 60px;
     }
@@ -232,7 +270,7 @@ ul.sect-list > li .sect-list-title-div img {
     }
     #urban-contents #sect-4 {
         padding-top: 30px;
-    }    
+    } 
 }
 @media(min-width: 601px) {
     .join-sub-wrapper, .sect-flex-align {
@@ -303,8 +341,8 @@ ul.sect-list > li .sect-list-title-div img {
         width: 100%;
     }
     #urban-contents #home button.btn.subscribe-submit.pry-bg {
-        width: 46px;
-        height: 46px;
+        width: 56px;
+        height: 56px;
         border-radius: 50%;
         min-width: auto;
         background-image: url(../images/right-arrow.png);

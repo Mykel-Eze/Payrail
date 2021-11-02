@@ -210,6 +210,9 @@ img {
 /* .unknown-device, .andriod-device, .ios-device {
     display: none;
 } */
+.contents {
+    min-height: 80vh;
+}
 
 /* Some Home Styles */
 #home {
@@ -405,6 +408,7 @@ img#p-img-3 {
     }
     section#home > .row, section#home .home-container {
         height: 100%;
+        z-index: 1;
     }
     #home-txt-side {
         margin: 0;
@@ -493,6 +497,7 @@ p.sect-desc {
     padding: 40px 0;
     /* margin: 20px 0; */
     position: relative;
+    z-index: 1;
 }
 #sect-2 {
     /* background-color: #FAFAFA; */

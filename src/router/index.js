@@ -4,6 +4,8 @@ import VueRouter from 'vue-router'
 // Agency Pages
 import Agency from '../views/agency/AgencyIndex'
 import AgencyHome from '../views/agency/AgencyHome'
+// import AgencyPrivacy from '../views/agency/AgencyPrivacy'
+// import AgencyTerms from '../views/agency/AgencyTerms'
 
 //Urban Pages
 import Urban from '../views/urban/UrbanIndex'
@@ -29,21 +31,31 @@ const routes = [
     component: Agency,
     children: [
       {
-        path: '/agency',
+        path: '/agency/home',
         alias: '',
         name: 'AgencyHome',
         component: AgencyHome
       },
+      // {
+      //   path: 'privacy',
+      //   name: 'AgencyPrivacy',
+      //   component: AgencyPrivacy
+      // },
+      // {
+      //   path: 'terms',
+      //   name: 'AgencyTerms',
+      //   component: AgencyTerms
+      // }
     ]
-  },
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   }
+  // {
+  //   path: '/about',
+  //   name: 'About',
+  //   // route level code-splitting
+  //   // this generates a separate chunk (about.[hash].js) for this route
+  //   // which is lazy-loaded when the route is visited.
+  //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+  // }
 ]
 
 const router = new VueRouter({

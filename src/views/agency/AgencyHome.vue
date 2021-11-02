@@ -446,7 +446,7 @@
                 <div class="container">
                     <div class="col s12 pad0">
                         <div class="col s12 m6 hidden-xs">
-                            <img src="../../assets/images/debit-card-hand-2.png" alt="payrail debit card" class="full-width payrail-card-hand" data-aos="fade-up" />
+                            <img src="../../assets/images/agency-card-hand.png" alt="payrail debit card" class="full-width payrail-card-hand" data-aos="fade-up" />
                         </div>
                         <div class="col s12 m6">
                             <div class="debit-cards-txt-div">
@@ -457,7 +457,7 @@
                             </div>
                         </div>
                         <div class="col s12 m6 visible-xs">
-                            <img src="../../assets/images/debit-card-hand-2.png" alt="payrail debit card" class="full-width payrail-card-hand" />
+                            <img src="../../assets/images/agency-card-hand.png" alt="payrail debit card" class="full-width payrail-card-hand" />
                         </div>
                     </div>
                 </div>
@@ -497,7 +497,7 @@
 </template>
 
 <script>
-    import M from 'materialize-css';
+    // import M from 'materialize-css';
     import AOS from 'aos';
     import 'aos/dist/aos.css';
 
@@ -506,8 +506,8 @@
         mounted() {
             AOS.init();
 
-            var elemScrollspy = document.querySelectorAll('.scrollspy');
-            M.Scrollspy.init(elemScrollspy);
+            // var elemScrollspy = document.querySelectorAll('.scrollspy');
+            // M.Scrollspy.init(elemScrollspy);
         }
     }
 </script>
