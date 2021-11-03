@@ -746,7 +746,7 @@ section#debit-cards .row {
 }
 .black-wrapper {
     overflow: auto;
-    padding: 20px 0;
+    padding: 30px 0 35px;
     border-radius: 20px;
 }
 .debit-card-title {
@@ -767,6 +767,9 @@ section#debit-cards .row {
     .debit-cards-txt-div {
         position: relative;
         top: 200px;
+    }
+    .black-wrapper {
+        padding: 40px 0px 48px;
     }
 }
 @media(max-width: 600px) {

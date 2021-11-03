@@ -329,7 +329,7 @@
                         <div class="col s12 m10 offset-m1 pad0-xs join-sub-wrapper rel">
                             <div class="col s12 m7">
                                 <h4 class="sect-title white-txt">
-                                    Sign up to experience financial bliss. <br /> Download the Payrail app and experience financial ease
+                                    Sign up to experience financial ease
                                 </h4> 
                             </div>
                             <div class="col s12 m5">
