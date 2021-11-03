@@ -271,18 +271,18 @@ ul.sect-list > li .sect-list-title-div img {
         height: 100%;
         right: 0;
         top: 0;
-        background: linear-gradient(90deg, rgba(255,255,255,0) 35%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(90deg, rgba(255,255,255,0) 60%, rgba(255,255,255,1) 100%);
         z-index: 1;
     }
     .theme-dark #urban-contents #home::after{
-        background: linear-gradient(90deg, rgba(33,33,33,0) 35%, rgba(33,33,33,1) 100%);
+        background: linear-gradient(90deg, rgba(33,33,33,0) 60%, rgba(33,33,33,1) 100%);
     }
     #urban-contents #home .lottie-bg {
         position: absolute;
         width: 100%;
         top: 0;
         opacity: 0.5;
-        transform: rotate(-30deg) translateX(20px);
+        transform: rotate(-30deg) translateX(140px);
     }
     .theme-dark #urban-contents #home .lottie-bg {
         opacity: 0.07;
