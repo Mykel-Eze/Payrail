@@ -278,7 +278,7 @@ ul.sect-list > li .sect-list-title-div img {
         width: 100%;
         top: 0;
         opacity: 0.5;
-        transform: rotate(30deg) translateX(20px);
+        transform: rotate(-30deg) translateX(20px);
     }
     .theme-dark #urban-contents #home .lottie-bg {
         opacity: 0.025;
