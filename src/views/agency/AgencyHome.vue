@@ -516,6 +516,13 @@
 
             // var elemScrollspy = document.querySelectorAll('.scrollspy');
             // M.Scrollspy.init(elemScrollspy);
+
+            const img = document.querySelector(".pci-img");
+            document.body.classList.add("js-loading");
+            img.addEventListener("load", removeLoadingClass);
+            function removeLoadingClass() {
+                document.body.classList.remove('js-loading');
+            }
         }
     }
 </script>
