@@ -282,10 +282,11 @@ div#home-img-side {
     }
 }
 h1.home-title {
-    font-family: var(--font-xbold);
+    font-family: var(--font-medium);
     margin: 1.5rem 0;
     font-size: 450%;
     font-size: 5.25vw;
+    font-weight: 700;
 }
 .home-minor-title {
     font-weight: bold;
