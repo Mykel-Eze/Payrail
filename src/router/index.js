@@ -55,6 +55,7 @@ const routes = [
       }
     ]
   },
+  { path: '*', beforeEnter: (to, from, next) => { next('/error') } },
   {
     path: '/error',
     name: 'ErrorPage',

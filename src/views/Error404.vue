@@ -2,7 +2,7 @@
     <div class="contents">
         <div class="error-wrapper">
             <h1 class="bold-error-code">404</h1>
-            <span>Page not found</span>
+            <span>Ooopppsss....Page not found</span>
             <p>
                 <router-link to="/" class="active-link">Go Home</router-link>
             </p>
