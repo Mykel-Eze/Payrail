@@ -1,11 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 // import Home from '../views/Home.vue'
+
+import ErrorPage from '../views/Error404'
 // Agency Pages
 import Agency from '../views/agency/AgencyIndex'
 import AgencyHome from '../views/agency/AgencyHome'
-// import AgencyPrivacy from '../views/agency/AgencyPrivacy'
-// import AgencyTerms from '../views/agency/AgencyTerms'
+import AgencyPrivacy from '../views/agency/AgencyPrivacy'
+import AgencyTerms from '../views/agency/AgencyTerms'
 
 //Urban Pages
 import Urban from '../views/urban/UrbanIndex'
@@ -17,9 +19,14 @@ const routes = [
   {
     path: '/',
     component: Urban,
+    redirect: '/urban'
+  },
+  {
+    path: '/urban',
+    component: Urban,
     children: [
       {
-        path: '/urban',
+        path: '/urban/home',
         alias: '',
         name: 'UrbanHome',
         component: UrbanHome
@@ -36,17 +43,22 @@ const routes = [
         name: 'AgencyHome',
         component: AgencyHome
       },
-      // {
-      //   path: 'privacy',
-      //   name: 'AgencyPrivacy',
-      //   component: AgencyPrivacy
-      // },
-      // {
-      //   path: 'terms',
-      //   name: 'AgencyTerms',
-      //   component: AgencyTerms
-      // }
+      {
+        path: 'privacy',
+        name: 'AgencyPrivacy',
+        component: AgencyPrivacy
+      },
+      {
+        path: 'terms',
+        name: 'AgencyTerms',
+        component: AgencyTerms
+      }
     ]
+  },
+  {
+    path: '/error',
+    name: 'ErrorPage',
+    component: ErrorPage,
   }
   // {
   //   path: '/about',
