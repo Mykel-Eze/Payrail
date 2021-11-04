@@ -497,7 +497,7 @@
 </template>
 
 <script>
-    // import M from 'materialize-css';
+    import M from 'materialize-css';
     import AOS from 'aos';
     import 'aos/dist/aos.css';
 
@@ -505,6 +505,14 @@
         name: "AgencyHome",
         mounted() {
             AOS.init();
+
+            // Initialising mterialise-css functions
+            var elemsCarousel = document.querySelectorAll('.carousel');
+            M.Carousel.init(elemsCarousel);
+
+            // window.setInterval(function () {
+            //     M.Carousel.getInstance(elemsCarousel).next()
+            // }, 2000)
 
             // var elemScrollspy = document.querySelectorAll('.scrollspy');
             // M.Scrollspy.init(elemScrollspy);

@@ -88,7 +88,7 @@
             <div class="close-sidenav-div">
                 <button class="sidenav-close">
                     <img src="../assets/images/close-black.svg" alt="close side-nav" class="n-img-1" />
-                    <img src="../assets/images/close-yellow.svg" alt="close side-nav" class="n-img-2" />
+                    <img src="../assets/images/close-red.svg" alt="close side-nav" class="n-img-2" />
                 </button>
             </div>
             <li class="big-navg-link">
@@ -149,14 +149,14 @@
             </div>
             <div class="appstore-container-mobile andriod-device">
                 <a class="download-link playstore-link" href="/" target="_blank" rel="noopener noreferrer">
-                    <img src="../assets/images/playstore-mobile-black.svg" alt="playstore" class="download-link-img n-img-1" />
-                    <img src="../assets/images/playstore-mobile-white.svg" alt="playstore" class="download-link-img n-img-2" />
+                    <img src="../assets/images/playstore-mobile-black2.svg" alt="playstore" class="download-link-img n-img-1" />
+                    <img src="../assets/images/playstore-mobile-white2.svg" alt="playstore" class="download-link-img n-img-2" />
                 </a>
             </div>
             <div class="appstore-container-mobile ios-device">
                 <a class="download-link appstore-link" href="/" target="_blank" rel="noopener noreferrer">
-                    <img src="../assets/images/appstore-mobile-black.svg" alt="appstore" class="download-link-img n-img-1" />
-                    <img src="../assets/images/appstore-mobile-white.svg" alt="appstore" class="download-link-img n-img-2" />
+                    <img src="../assets/images/appstore-mobile-black2.svg" alt="appstore" class="download-link-img n-img-1" />
+                    <img src="../assets/images/appstore-mobile-white2.svg" alt="appstore" class="download-link-img n-img-2" />
                 </a>
             </div>
         </ul>

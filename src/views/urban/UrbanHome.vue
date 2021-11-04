@@ -400,10 +400,10 @@
                     }
                     // check if dataText[i] exists
                     if (i < dataText[i].length) {
-                    // text exists! start typewriter animation
-                    typeWriter(dataText[i], 0, function(){
-                    // after callback (and whole text has been animated), start next text
-                    StartTextAnimation(i + 1);
+                        // text exists! start typewriter animation
+                        typeWriter(dataText[i], 0, function(){
+                        // after callback (and whole text has been animated), start next text
+                        StartTextAnimation(i + 1);
                     });
                     }
                 }
