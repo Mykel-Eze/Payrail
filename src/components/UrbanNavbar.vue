@@ -76,15 +76,15 @@
                     </ul>
                     <ul class="right dn-mobile ul-nav">
                         <li class="menu-img-wrapper">
-                            <img src="../assets/images/menu.svg" alt="menu" data-target="slide-out" class="menu-img sidenav-trigger n-img-1" />
-                            <img src="../assets/images/menu-2.svg" alt="menu" data-target="slide-out" class="menu-img sidenav-trigger n-img-2" />
+                            <img src="../assets/images/menu.svg" alt="menu" data-target="slide-out-2" class="menu-img sidenav-trigger n-img-1" />
+                            <img src="../assets/images/menu-2.svg" alt="menu" data-target="slide-out-2" class="menu-img sidenav-trigger n-img-2" />
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <ul id="slide-out" class="sidenav">
+        <ul id="slide-out-2" class="sidenav">
             <div class="close-sidenav-div">
                 <button class="sidenav-close">
                     <img src="../assets/images/close-black.svg" alt="close side-nav" class="n-img-1" />
@@ -169,8 +169,7 @@ import M from 'materialize-css';
 export default {
     name: "AgencyNavbar",
     mounted() {
-        document.addEventListener('DOMContentLoaded', function() {
-        var elemSidenav = document.querySelectorAll('.sidenav');
+        var elemSidenav = document.querySelector('#slide-out-2');
         M.Sidenav.init(elemSidenav);
 
          /**
@@ -215,7 +214,6 @@ export default {
                 })
             } 
             // console.log(getMobileOperatingSystem())
-    });
     },
     methods:{
         scrollToTop() {

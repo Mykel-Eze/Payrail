@@ -170,8 +170,7 @@ import M from 'materialize-css';
 export default {
     name: "AgencyNavbar",
     mounted() {
-        document.addEventListener('DOMContentLoaded', function() {
-        var elemSidenav = document.querySelectorAll('.sidenav');
+        var elemSidenav = document.querySelector('#slide-out');
         M.Sidenav.init(elemSidenav);
 
          /**
@@ -216,7 +215,6 @@ export default {
                 })
             } 
             // console.log(getMobileOperatingSystem())
-    });
     },
     methods:{
         scrollToTop() {

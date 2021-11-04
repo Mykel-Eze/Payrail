@@ -112,7 +112,7 @@ li.urban-download-btn-wrapper button.nav-pry-btn.black-bg.btn {
     border-color: var(--sec-color);
 }
 
-.theme-dark ul#slide-out {
+.theme-dark ul#slide-out, .theme-dark ul#slide-out-2 {
     background: #1e1e1e;
 }
 button.nav-pry-btn.btn img {
