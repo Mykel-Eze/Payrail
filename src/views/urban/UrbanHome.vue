@@ -361,7 +361,7 @@
     import 'aos/dist/aos.css';
 
     export default {
-        name: "AgencyHome",
+        name: "UrbanHome",
         components: {},
         mounted() {
             AOS.init();

@@ -167,7 +167,7 @@
 // import $ from 'jquery'
 import M from 'materialize-css';
 export default {
-    name: "AgencyNavbar",
+    name: "UrbanNavbar",
     mounted() {
         var elemSidenav = document.querySelector('#slide-out-2');
         M.Sidenav.init(elemSidenav);

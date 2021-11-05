@@ -216,7 +216,7 @@
 
 <script>
 export default {
-    name: "AgencyFooter"
+    name: "UrbanFooter"
 }
 </script>
 
