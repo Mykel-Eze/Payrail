@@ -13,6 +13,10 @@ import AgencyTerms from '../views/agency/AgencyTerms'
 import Urban from '../views/urban/UrbanIndex'
 import UrbanHome from '../views/urban/UrbanHome'
 
+//Business Pages
+import Business from '../views/business/BusinessIndex'
+import BusinessHome from '../views/business/BusinessHome'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -52,6 +56,18 @@ const routes = [
         path: 'terms',
         name: 'AgencyTerms',
         component: AgencyTerms
+      }
+    ]
+  },
+  {
+    path: '/business',
+    component: Business,
+    children: [
+      {
+        path: '/business/home',
+        alias: '',
+        name: 'BusinessHome',
+        component: BusinessHome
       }
     ]
   },

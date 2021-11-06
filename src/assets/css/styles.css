@@ -1,8 +1,10 @@
 :root {
     /* --pry-color: #F4A11D; */
     --sec-color: #C92135;
+    --tert-color: #EA6212;
     --urban-pry-color: #C92135;
     --agency-pry-color: #F4A11D;
+    --business-pry-color: #EA6212;
 	--font: 'pushpenny', sans-serif;
     --font-bold: 'pushpenny-bold', sans-serif;
     --font-medium: 'pushpenny-medium', sans-serif;

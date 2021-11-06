@@ -1,16 +1,33 @@
-:root {
-    --pry-color: #F4A11D;
-}
-#business-contents .subscribe-form-wrapper {
-    margin-left: 0;
+div#business-wrapper {
+    --pry-color: #EA6212;
 }
 
-.agency-logo, .agency-download-btn-wrapper {
-    display: initial !important;
+#business-contents .subscribe-form-wrapper {
+    width: 100%;
 }
-.agency-stuff {
-    display: flex !important;
+#business-contents button.btn.subscribe-submit.pry-bg {
+    height: 46px;
+    background-color: var(--pry-color);
+    color: white;
+    border-radius: 28px;
+    font-size: 12px;
+    text-transform: none;
+    min-width: 125px;
+    padding: 0 20px;
+    font-weight: 500;
 }
-.urban-logo, .urban-download-btn-wrapper, .urban-stuff {
-    display: none !important;
+
+@media(min-width: 993px) {
+    #business-contents .debit-card-txt {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+}
+@media(min-width: 601px) {
+    #business-contents input#subscriber-email {
+        background: #F9F9F9 !important;
+        border: 1px solid rgba(119, 119, 119, 0.2);
+        box-sizing: border-box;
+        border-radius: 28.5px;
+    }
 }
