@@ -241,6 +241,9 @@ button.nav-pry-btn.btn img.right-chevron {
     nav .nav-wrapper {
         padding: 0 0.75rem;
     }
+    #business-wrapper nav .nav-wrapper {
+        padding: 0;
+    }
 }
 @media(max-width: 992px) {
     nav .brand-logo {

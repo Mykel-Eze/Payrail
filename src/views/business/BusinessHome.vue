@@ -3,28 +3,39 @@
         <!--==== Home Section  ====-->
         <section id="home" class="scrollspy">
             <div class="row rel">
-                <div class="container home-container">
-                    <div class="col s12 l6" id="home-txt-side">
-                        <div class="home-minor-title">Designed for everyone</div>
-                        <h1 class="home-title"> Your branchless Next-door Banking  </h1>
-                        <p class="home-desc-txt hidden-xs-sm">
-                            Built for Super agents and agents; enabling multiple type transactions 
-                            in an easy, convenient, and cost-effective manner.
-                        </p>
-                        <div class="app-stores-wrapper hidden-xs-sm">
-                            <div class="unknown-device">
-                                <button class="app-store google-store hover-scale">
-                                    <img src="../../assets/images/google-playstore.svg" alt="google store" />
+                <div class="col s12 l6" id="home-txt-side">
+                    <div class="home-minor-title">SIMPLIFYING MODERN COMMERCE</div>
+                    <h1 class="home-title"> Helping solopreneurs and small businesses grow   </h1>
+                    <p class="home-desc-txt">
+                        who want an all-inclusive <span class="pry-color">banking service that works</span> - anywhere in Africa.
+                    </p>
+                    <div class="subscribe-form-wrapper">
+                        <form action="#" id="subscribe-form" onSubmit="SaveEmails">
+                            <div class="flex-div input-field">
+                                <input id="subscriber-email" placeholder="Your Email..." type="email" required />
+
+                                <button class="btn subscribe-submit pry-bg">
+                                    <span class="visible-text-m-l">Get Started</span>
+                                    <!-- {/* <img src="../../assets/images/right-arrow.png" alt="right-arrow" class="hidden-text-m-l" /> */} -->
                                 </button>
                             </div>
-                            <div class="unknown-device">
-                                <button class="app-store apple-store hover-scale">
-                                    <img src="../../assets/images/apple-appstore.svg" alt="apple store" />
-                                </button>
+                        </form>
+                        <div id="subscribe-message" class="hidden">
+                            <div class="dummy-positioning d-flex">
+                                <div class="success-icon">
+                                    <div class="success-icon__tip"></div>
+                                    <div class="success-icon__long"></div>
+                                </div>
                             </div>
+                            <h5 class="pry-color">Email Submitted Successfully</h5>
                         </div>
                     </div>
-                    <div class="col s12 m8 offset-m2 l6 offset-l0 rel" id="home-img-side">
+                </div>
+                <div class="container home-container rel">
+                    <!-- <div>
+                        <img src="../../assets/images/business-home-banner.png" alt="business-home-banner" class="business-home-banner">
+                    </div> -->
+                    <!-- <div class="col s12 m8 offset-m2 l6 offset-l0 rel" id="home-img-side">
                         <div class="phone-card-imgs hidden-xs">
                             <img src="../../assets/images/phone-1.png" alt="phone 1" class="full-width pci-img" id="p-img-1" />
                             <img src="../../assets/images/agency-card.png" alt="card" class="full-width pci-img" id="p-img-2" />
@@ -33,336 +44,282 @@
                         <div class="visible-xs">
                             <img src="../../assets/images/landing-section-images-2.png" alt="phone and hand" class="full-width" />
                         </div>
-                    </div>
-                </div>
-
-                <div class="col s12 visible-xs-sm">
-                    <div class="container">
-                        <p class="home-desc-txt">
-                            Built for agents; individual-based businesses, enterprises and financial 
-                            institutions to manage multiple payment workflows and move funds, so they 
-                            can pay and get paid without delays.
-                        </p>
-                        <div class="app-stores-wrapper flex-div">
-                            <div class="unknown-device">
-                                <button class="app-store google-store hover-scale">
-                                    <img src="../../assets/images/google-playstore.svg" alt="google store" />
-                                </button>
-                            </div>
-                            <div class="unknown-device">
-                                <button class="app-store apple-store hover-scale">
-                                    <img src="../../assets/images/apple-appstore.svg" alt="apple store" />
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
         <!--==== end of Home Section  ====-->
 
-        <!--==== Middle-section-1  ====-->
-        <section id="mid-sect-1" class="mid-sects">
+        <!--==== Integration-Description-Section  ====-->
+        <section id="integration-desc-section" class="section scrollspy">
             <div class="row">
                 <div class="container">
-                    <div class="mid-sect-wrapper center col s12 m10 offset-m1 l6 offset-l3">
-                        <h3 class="sect-title">More Transactions. More Commissions</h3>
-                        <p class="mid-sect-p">
-                            As a Payrail Agent, you have the power and control to make as much 
-                            money as you can by providing financial services in your community easily 
-                            within the app, and also get your Mastercard debit card almost instantly.
-                        </p>
-                        
+                    <div class="mid-sect-wrapper col s12">
+                        <div class="col s12 m10 offset-m1 l6 offset-l3 pad0 center sect-heading">
+                            <hr class="sect-top-marker" />
+                            <h4 class="section-title center">One integration, many possibilities</h4>
+                            <span class="sect-title-desc">
+                                Create your account with Payrail business and get it running in as little as 10 minutes
+                            </span>
+                        </div>
+
+                        <div class="col s12 pad0 sect-contents">
+                            <div class="col s12 l6 int-img-side text-center-xs" data-aos="fade-up">
+                                <img src="../../assets/images/int-img-1.png" alt="dashboard-laptop" class="int-img active-int-img">
+                                <img src="../../assets/images/int-img-2.png" alt="dashboard-laptop" class="int-img">
+                                <img src="../../assets/images/int-img-3.png" alt="dashboard-laptop" class="int-img">
+                                <img src="../../assets/images/int-img-4.png" alt="dashboard-laptop" class="int-img">
+                            </div>
+
+                            <div class="col s12 l6 int-txt-side">
+                                <ul class="int-txt-indicator">
+                                    <li class="txt-indicator-block active-indicator-block">
+                                        <h5 class="indicator-title">You want data? You’ll have it</h5>
+                                        <span class="indicator-text">
+                                            We provide an unrivalled transparent view of your payments data and insights that helps your business strive. 
+                                        </span>
+                                    </li>
+                                    <li class="txt-indicator-block">
+                                        <h5 class="indicator-title">Payment gateway</h5>
+                                        <span class="indicator-text">
+                                            We do not discriminate against credit cards and we accept payments in many currencies.  
+                                        </span>
+                                    </li>
+                                    <li class="txt-indicator-block">
+                                        <h5 class="indicator-title">Whatever your business, you need cash</h5>
+                                        <span class="indicator-text">
+                                            Cash is the fuel that powers your business. Let’s make it easier to keep it flowing.
+                                        </span>
+                                    </li>
+                                    <li class="txt-indicator-block">
+                                        <h5 class="indicator-title">Time Wasted = zero </h5>
+                                        <span class="indicator-text">
+                                            The recurring payments and subscription-based payment plans ensure that you drive revenue and expand effortlessly.  
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--==== end of Middle-section-1  ====-->
+        <!--==== end of Integration-Description-Section  ====-->
 
-        <!--==== Section-content-1  ====-->
-        <section id="sect-1" class="scrollspy">
+        <!--==== Protect-Funds-Section  ====-->
+        <section id="protect-funds" class="section scrollspy">
             <div class="row">
                 <div class="container">
-                    <div class="col s12 m6">
-                        <img src="../../assets/images/agency-imgs-1.png" alt="section-img" class="sect-img" data-aos="fade-up" />
-                    </div>
-                    <div class="col s12 m6">
-                        <h3 class="sect-title">Cutting-edge <br /> Agency Banking</h3>
-                        <p class="sect-desc">
-                            Payrail  Agency is built to prioritize the needs of its users. We're not your 
-                            typical agency banking platform; we're here to help you with your day-to-day 
-                            agency banking needs.
-                        </p>
-                        <ul class="sect-list s-list-1">
-                            <li>
-                                <img src="../../assets/images/check.svg" alt="check mark" />
-                                <span>We are the first and only truly INCLUSIVE Financial Services partner.</span>
-                            </li>
-                            <li>
-                                <img src="../../assets/images/check.svg" alt="check mark" />
-                                <span>You get to make money on all transactions and impact lives by partnering with us. </span>
-                            </li>
-                            <li>
-                                <img src="../../assets/images/check.svg" alt="check mark" />
-                                <span>Stay organised with multiple staff, agent and super agent and  for your business needs.</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--==== end of Section-content-1  ====-->
-
-        <!--==== Section-content-2  ====-->
-        <section id="sect-2">
-            <div class="row rel">
-                <div class="container flex-div-coloumn-xs">
-                    <div class="col s12 m6">
-                        <h3 class="sect-title">Save time with seamless transactions</h3>
-                        <p class="sect-desc">
-                            Payrail Agency guarantees you of the best infrastructure, the best 
-                            pricing, stable network and 24 hrs multilingual support for your 
-                            business needs. Our agencies services include;
-                        </p>
-                        <div class="sec-list-grid">
-                            <ul class="sect-list">
-                                <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
-                                    <span>Account Opening</span>
-                                </li>
-                                <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
-                                    <span>Funds Transfer </span>
-                                </li>
-                                <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
-                                    <span>Cash in/ Cash out</span>
-                                </li>
-                                <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
-                                    <span>Bill payments</span>
-                                </li>
-                            </ul>
-                            <ul class="sect-list">
-                                <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
-                                    <span>Value financing</span>
-                                </li>
-                                <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
-                                    <span>Insurance</span>
-                                </li>
-                                <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
-                                    <span>Group savings</span>
-                                </li>
-                                <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
-                                    <span>Asset financing.</span>
-                                </li>
-                            </ul>
+                    <div class="col s12 pad0 pf-flex-div">
+                        <div class="col s12 m6" id="pf-txt-side">
+                            <h4 class="section-title">We will protect your funds</h4>
+                            <p class="sect-title-desc">
+                                Every payment made on our platform is 100% secure, far above industry standard. 
+                                We also have an advanced fraud protection system in place.
+                            </p>
+                        </div>
+                        <div class="col s12 m6 right-align text-center-xs">
+                            <img src="../../assets/images/bizness-safe.png" alt="section-img" class="sect-img pf-safe-img" data-aos="fade-up" />
                         </div>
                     </div>
-                    <div class="col s12 m6 right-align sect-center">
-                        <img src="../../assets/images/agency-imgs-2a.png" alt="section-img" class="sect-img" data-aos="fade-up" />
+                </div>
+            </div>
+        </section>
+        <!--==== end of Protect-Funds-Section  ====-->
+
+        <!--==== Gallery-Section  ====-->
+        <section id="gallery-section" class="section scrollspy">
+            <div class="row">
+                <div class="container*">
+                    <div class="mid-sect-wrapper col s12 pad0">
+                        <div class="col s12 m10 offset-m1 l6 offset-l3 center sect-heading">
+                            <hr class="sect-top-marker" />
+                            <h4 class="section-title center">For today’s forward thinking businesses</h4>
+                            <span class="sect-title-desc">
+                                Whether you are a startup or the most experienced solopreneur, Payrail business has a solution for you.
+                            </span>
+                        </div>
+
+                        <div class="col s12 pad0 sect-contents">
+                            <img src="../../assets/images/full-img-gallery.png" alt="full-img-gallery" class="full-width" data-aos="fade-up">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--==== end of Section-content-2  ====-->
+        <!--==== end of Gallery-Section  ====-->
 
-        <!--==== Middle-section-2  ====-->
-        <section id="mid-sect-2" class="mid-sects">
+        <!--==== Support-Section  ====-->
+        <section id="support-section" class="section scrollspy">
             <div class="row">
                 <div class="container">
-                    <div class="mid-sect-wrapper center col s12 m10 offset-m1 l6 offset-l3">
-                        <h3 class="sect-title">Our Buy Now Pay Later</h3>
-                        <p class="mid-sect-p">
-                            Our Buy Now Pay Later services close the financial inclusion gap for 
-                            individuals and businesses. As a Payrail Agent, you make significant 
-                            commissions on all BNPL items you cross-sell to customers – <span class="pry-color">Solar devices, 
-                            Agricultural machinery, Household items, Mobile phones, Water pumps</span>, and so on! 
-                        </p>
-                        <div class="get-started-btn-wrapper">
-                            <button class="nav-pry-btn black-bg btn pointer get-started-btn">
-                                Get Started →
-                            </button>
+                    <div class="col s12 m10 offset-m1 l6 offset-l3 pad0 center sect-heading">
+                        <hr class="sect-top-marker" />
+                        <h4 class="section-title center">Over 5000 businesses trust Payrail</h4>
+                        <span class="sect-title-desc">
+                            Business to process millions of secure payments daily. What about yours?
+                        </span>
+                    </div>
+                    <div class="col s12 pad0 sect-contents pf-flex-div">
+                        <div class="col s12 m6 text-center-xs">
+                            <img src="../../assets/images/chat-list-img.png" alt="chat-img" class="sect-img pf-safe-img" data-aos="fade-up" />
+                        </div>
+                        <div class="col s12 m6">
+                            <h4 class="section-sub-title">We offer a wide range of products that any business can benefit from. </h4>
+                            <p class="sect-title-desc">
+                                Our team of payment experts are available to help each step of the way.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--==== end of Middle-section-2  ====-->
+        <!--==== end of Support-Section  ====-->
 
-        <!--==== Section-content-3  ====-->
-        <section id="sect-3">
+        <!--==== Customers-Testimonies-Section  ====-->
+        <section id="testimonies-section" class="scrollspy">
             <div class="row">
                 <div class="container">
-                    <div class="col s12 m6">
-                        <img src="../../assets/images/agency-imgs-3.png" alt="section-img" class="sect-img" data-aos="fade-up" />
-                    </div>
-                    <div class="col s12 m6 sec-mag-down">
-                        <h3 class="sect-title">Do business with confidence</h3>
-                        <ul class="sect-list">
-                            <li>
-                                <img src="../../assets/images/check.svg" alt="check mark" />
-                                <span>
-                                    Payrail guarantees the greatest infrastructure, the best pricing, a stable network.
-                                </span>
-                            </li>
-                            <li>
-                                <img src="../../assets/images/check.svg" alt="check mark" />
-                                <span>
-                                    We offer multilingual customer friendly support 24 /7 for both individual and business owners.
-                                </span>
-                            </li>
-                            <li>
-                                <img src="../../assets/images/check.svg" alt="check mark" />
-                                <span>
-                                    Your safety is our top priority, thus your money and personal information are safe with us 
-                                    and will never be shared with third parties.
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--==== end of Section-content-3  ====-->
-
-        <!--==== Customer-Testimonials  ====-->
-        <section id="customer-testimonials" class="mid-sects">
-            <div class="row">
-                <div class="container">
-                    <div class="customer-sect-title">
-                        <h3 class="sect-title">Customer Testimonials</h3>
-                        <p>
-                            Our Agents put smiles on the faces of over 600,000 people daily. 
-                            Do work that pay the bills and makes you proud with Payrail!
-                        </p>
-                    </div>
-
-                    <div class="testimony-wrapper hidden-xs">
-                        <div class="testimony-block" data-aos="fade-up">
-                            <div class="flex-div review-title">
-                                <img src="../../assets/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
-                                <img src="../../assets/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
-                                <span class="bold">Trusted and Reliable Service</span>
-                            </div>
-                            <div class="review-container">
-                                <p>
-                                    Quick response⚡⚡ app, super fast for transfers and electricity bill payment. 
-                                    I enjoy ❤️ using this Payrail Urban.
-                                </p>
-                            </div>
-                            <div class="reviewer-details">
-                                <div class="reviewer-name">
-                                    <b>Christiana Olaotan</b>
+                    <div class="carousel testimonies-slider-1 hidden-xs">
+                        <div class="carousel-item">
+                            <div class="testimony-wrapper">
+                                <div class="testimony-block">
+                                    <div class="review-container">
+                                        <p>
+                                            "My staff cannot still believe how easy it is for my customers to make payments. 
+                                            Before now, we were limited to selling in only Nigeria but now we have some of our best 
+                                            buying customers in Kenya and South Africa."
+                                        </p>
+                                    </div>
+                                    <div class="reviewer-details">
+                                        <div class="reviewer-name">
+                                            <b>Olabisi Olayemi</b> <br />
+                                            <span>Founder, Seamwears Ltd </span>
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- {/* <div class="reviewer-title"></div> */} -->
+                                <div class="testimony-block">
+                                    <div class="review-container">
+                                        <p>
+                                            "I thought it was all hype when I was told I could have my account running in 10 minutes. 
+                                            But that was exactly what happened. There was no back and forth. There was no fuss. And 
+                                            now, my business’ cash flow has never been better." 
+                                        </p>
+                                    </div>
+                                    <div class="reviewer-details">
+                                        <div class="reviewer-name">
+                                            <b>Shittu Ogundare</b> <br />
+                                            <span>CEO, Blackman Shoes </span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="testimony-block" data-aos="fade-up">
-                            <div class="flex-div review-title">
-                                <img src="../../assets/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
-                                <img src="../../assets/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
-                                <span class="bold">Instant Transaction Settlement</span>
-                            </div>
-                            <div class="review-container">
-                                <p>
-                                    Received funds in my wallet instantly and offer easy transfer services to my customers in real-time. 
-                                    No waiting for end-of-day reconciliation.
-                                </p>
-                            </div>
-                            <div class="reviewer-details">
-                                <div class="reviewer-name">
-                                    <b>Musa Abubaka</b>
+                        <div class="carousel-item">
+                            <div class="testimony-wrapper">
+                                <div class="testimony-block">
+                                    <div class="review-container">
+                                        <p>
+                                            "It’s the interface for me, actually. It is so easy to use and very informative and I 
+                                            believe this is one of the reasons why transactions do not take a lot of time." 
+                                        </p>
+                                    </div>
+                                    <div class="reviewer-details">
+                                        <div class="reviewer-name">
+                                            <b>Karen Johson</b> <br />
+                                            <span>CEO, Cheekybeauty </span>
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- {/* <div class="reviewer-title"></div> */} -->
-                            </div>
-                        </div>
-                        <div class="testimony-block" data-aos="fade-up">
-                            <div class="flex-div review-title">
-                                <img src="../../assets/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
-                                <img src="../../assets/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
-                                <span class="bold">Enjoying Lowest Charges</span>
-                            </div>
-                            <div class="review-container">
-                                <p>
-                                    I enjoyed cheaper transactions and also been able to renders delightful premium service
-                                </p>
-                            </div>
-                            <div class="reviewer-details">
-                                <div class="reviewer-name">
-                                    <b>Chinedu Nwaiwu</b>
+                                <div class="testimony-block">
+                                    <div class="review-container">
+                                        <p>
+                                            "My staff cannot still believe how easy it is for my customers to make payments. 
+                                            Before now, we were limited to selling in only Nigeria but now we have some of our best 
+                                            buying customers in Kenya and South Africa."
+                                        </p>
+                                    </div>
+                                    <div class="reviewer-details">
+                                        <div class="reviewer-name">
+                                            <b>Olabisi Olayemi</b> <br />
+                                            <span>Founder, Seamwears Ltd </span>
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- {/* <div class="reviewer-title"></div> */} -->
                             </div>
                         </div>
                     </div>
-
-                    <div class="carousel testimony-wrapper visible-xs">
-                        <div class="testimony-block carousel-item">
-                            <div class="flex-div review-title">
-                                <img src="../../assets/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
-                                <img src="../../assets/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
-                                <span class="bold">Trusted and Reliable Service</span>
-                            </div>
-                            <div class="review-container">
-                                <p>
-                                    Quick response⚡⚡ app, super fast for transfers and electricity bill payment. 
-                                    I enjoy ❤️ using this Payrail Urban.
-                                </p>
-                            </div>
-                            <div class="reviewer-details">
-                                <div class="reviewer-name">
-                                    <b>Christiana Olaotan</b>
+                    <div class="carousel testimonies-slider-2 visible-xs">
+                        <div class="carousel-item">
+                            <div class="testimony-block">
+                                <div class="review-container">
+                                    <p>
+                                        "My staff cannot still believe how easy it is for my customers to make payments. 
+                                        Before now, we were limited to selling in only Nigeria but now we have some of our best 
+                                        buying customers in Kenya and South Africa."
+                                    </p>
                                 </div>
-                                <!-- {/* <div class="reviewer-title"></div> */} -->
+                                <div class="reviewer-details">
+                                    <div class="reviewer-name">
+                                        <b>Olabisi Olayemi</b> <br />
+                                        <span>Founder, Seamwears Ltd </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="testimony-block carousel-item">
-                            <div class="flex-div review-title">
-                                <img src="../../assets/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
-                                <img src="../../assets/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
-                                <span class="bold">Instant Transaction Settlement</span>
-                            </div>
-                            <div class="review-container">
-                                <p>
-                                    Received funds in my wallet instantly and offer easy transfer services to my customers in real-time. 
-                                    No waiting for end-of-day reconciliation.
-                                </p>
-                            </div>
-                            <div class="reviewer-details">
-                                <div class="reviewer-name">
-                                    <b>Musa Abubaka</b>
+                        <div class="carousel-item">
+                            <div class="testimony-block">
+                                <div class="review-container">
+                                    <p>
+                                        "I thought it was all hype when I was told I could have my account running in 10 minutes. 
+                                        But that was exactly what happened. There was no back and forth. There was no fuss. And 
+                                        now, my business’ cash flow has never been better." 
+                                    </p>
                                 </div>
-                                <!-- {/* <div class="reviewer-title"></div> */} -->
+                                <div class="reviewer-details">
+                                    <div class="reviewer-name">
+                                        <b>Shittu Ogundare</b> <br />
+                                        <span>CEO, Blackman Shoes </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="testimony-block carousel-item">
-                            <div class="flex-div review-title">
-                                <img src="../../assets/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
-                                <img src="../../assets/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
-                                <span class="bold">Enjoying Lowest Charges</span>
-                            </div>
-                            <div class="review-container">
-                                <p>
-                                    I enjoyed cheaper transactions and also been able to renders delightful premium service
-                                </p>
-                            </div>
-                            <div class="reviewer-details">
-                                <div class="reviewer-name">
-                                    <b>Chinedu Nwaiwu</b>
+                        <div class="carousel-item">
+                            <div class="testimony-block">
+                                <div class="review-container">
+                                    <p>
+                                        "It’s the interface for me, actually. It is so easy to use and very informative and I 
+                                        believe this is one of the reasons why transactions do not take a lot of time." 
+                                    </p>
                                 </div>
-                                <!-- {/* <div class="reviewer-title"></div> */} -->
+                                <div class="reviewer-details">
+                                    <div class="reviewer-name">
+                                        <b>Karen Johson</b> <br />
+                                        <span>CEO, Cheekybeauty </span>
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="carousel-nav flex-div">
+                        <div class="carousel-counter flex-div hidden-xs">
+                            <span class="curr-slide">1</span>
+                            <hr class="counter-divider"/>
+                            <span class="all-slide">2</span>
+                        </div>
+                        <div class="next-prev-wrapper flex-div hidden-xs">
+                            <img src="../../assets/images/left-slide.svg" alt="previous" class="prev-btn slide-btn" @click="prevFunc()">
+                            <img src="../../assets/images/right-slide.svg" alt="next" class="next-btn slide-btn" @click="nextFunc()">
+                        </div>
+                        <div class="next-prev-wrapper flex-div visible-xs">
+                            <img src="../../assets/images/left-slide.svg" alt="previous" class="prev-btn slide-btn" @click="prevFunc2()">
+                            <img src="../../assets/images/right-slide.svg" alt="next" class="next-btn slide-btn" @click="nextFunc2()">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--==== end of Customer-Testimonials  ====-->
+        <!-- end of Customers-Testimonies-Section  -->
 
         <!--==== Debit Card ====-->
         <section id="debit-cards">
@@ -403,7 +360,7 @@
                                 <div class="subscribe-form-wrapper">
                                     <form action="#" id="subscribe-form-2" onSubmit={SaveEmails}>
                                         <div class="flex-div input-field">
-                                            <input id="subscriber-email" placeholder="Your Email..." type="email" required />
+                                            <input id="subscriber-email-2" placeholder="Your Email..." type="email" required />
                                             
                                             <button class="btn subscribe-submit pry-bg">Get Started</button>
                                         </div>
@@ -439,12 +396,16 @@
             AOS.init();
 
             // Initialising mterialise-css functions
-            var elemsCarousel = document.querySelectorAll('.carousel');
+            var elemsCarousel = document.querySelector('.testimonies-slider-1.carousel');
             M.Carousel.init(elemsCarousel);
+            var elemsCarousel2 = document.querySelector('.testimonies-slider-2.carousel');
+            M.Carousel.init(elemsCarousel2, {
+                fullWidth: true
+            });
 
-            // window.setInterval(function () {
-            //     M.Carousel.getInstance(elemsCarousel).next()
-            // }, 2000)
+            window.setInterval(function () {
+                M.Carousel.getInstance(elemsCarousel2).next()
+            }, 8000)
 
             // var elemScrollspy = document.querySelectorAll('.scrollspy');
             // M.Scrollspy.init(elemScrollspy);
@@ -454,6 +415,24 @@
             img.addEventListener("load", removeLoadingClass);
             function removeLoadingClass() {
                 document.body.classList.remove('js-loading');
+            }
+        },
+        methods:{
+            nextFunc() {
+                var elemsCarousel2 = document.querySelector(".testimonies-slider-1.carousel");
+                M.Carousel.getInstance(elemsCarousel2).next();
+            },
+            prevFunc() {
+                var elemsCarousel2 = document.querySelector(".testimonies-slider-1.carousel");
+                M.Carousel.getInstance(elemsCarousel2).prev();
+            },
+            nextFunc2() {
+                var elemsCarousel2 = document.querySelector(".testimonies-slider-2.carousel");
+                M.Carousel.getInstance(elemsCarousel2).next();
+            },
+            prevFunc2() {
+                var elemsCarousel2 = document.querySelector(".testimonies-slider-2.carousel");
+                M.Carousel.getInstance(elemsCarousel2).prev();
             }
         }
     }
