@@ -507,12 +507,12 @@
             AOS.init();
 
             // Initialising mterialise-css functions
-            var elemsCarousel = document.querySelectorAll('.carousel');
+            var elemsCarousel = document.querySelector('.carousel');
             M.Carousel.init(elemsCarousel);
 
-            // window.setInterval(function () {
-            //     M.Carousel.getInstance(elemsCarousel).next()
-            // }, 2000)
+            window.setInterval(function () {
+                M.Carousel.getInstance(elemsCarousel).next()
+            }, 8000)
 
             // var elemScrollspy = document.querySelectorAll('.scrollspy');
             // M.Scrollspy.init(elemScrollspy);
