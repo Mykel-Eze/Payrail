@@ -51,7 +51,7 @@
                             <img src="../../assets/images/bg-strokes.png" alt="strokes" class="bg-strokes" />
                         </div> -->
                         <div>
-                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_4j5fkcao.json`"
+                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_l0galv9r.json`"
                                 style="width:100%; height:600px"
                                 :background= "options.backgroundColor"
                                 :speed="options.speed"
@@ -94,7 +94,42 @@
                         <img src="../../assets/images/benefits-3a.png" alt="benefits-images" class="benefits-img n-img-2" id="benefits-3a"  data-aos="fade-up-right" />
                         <img src="../../assets/images/benefits-4.png" alt="benefits-images" class="benefits-img n-img-1" id="benefits-4"  data-aos="fade-up-left" />
                         <img src="../../assets/images/benefits-4a.png" alt="benefits-images" class="benefits-img n-img-2" id="benefits-4a"  data-aos="fade-up-left" />
-                        <img src="../../assets/images/mobile-phone-a.png" alt="phone" class="center-phone"  data-aos="fade-up" />
+                        <!-- <img src="../../assets/images/mobile-phone-a.png" alt="phone" class="center-phone"  data-aos="fade-up" /> -->
+                        <div class="center-phone-div"  data-aos="fade-up">
+                            <img src="../../assets/images/mobile-phone-a.png" alt="phone" class="center-phone" style="opacity: 0 !important" />
+                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_fkz6avbc.json`"
+                                style="width:100%; height:600px"
+                                :background= "options.backgroundColor"
+                                :speed="options.speed"
+                                id="lottie-benefit-1"
+                                class="lottie-benefit"
+                            >
+                            </lottie-vue-player>
+                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_1sty8jtu.json`"
+                                style="width:100%; height:600px"
+                                :background= "options.backgroundColor"
+                                :speed="options.speed"
+                                id="lottie-benefit-2"
+                                class="lottie-benefit"
+                            >
+                            </lottie-vue-player>
+                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_vcp9lcll.json`"
+                                style="width:100%; height:600px"
+                                :background= "options.backgroundColor"
+                                :speed="options.speed"
+                                id="lottie-benefit-3"
+                                class="lottie-benefit"
+                            >
+                            </lottie-vue-player>
+                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_r0u55xa5.json`"
+                                style="width:100%; height:600px"
+                                :background= "options.backgroundColor"
+                                :speed="options.speed"
+                                id="lottie-benefit-4"
+                                class="lottie-benefit"
+                            >
+                            </lottie-vue-player>
+                        </div>
                     </div>
                     <div class="col s12 visible-xs-sm pad0-xs benefits-img-container center">
                         <img src="../../assets/images/full-benefits-img.png" alt="section-img" class="sect-img n-img-1" data-aos="fade-up" />
@@ -359,6 +394,7 @@
     // import M from 'materialize-css';
     import AOS from 'aos';
     import 'aos/dist/aos.css';
+    import $ from 'jquery'
 
     export default {
         name: "UrbanHome",
@@ -368,6 +404,23 @@
 
             // var elemScrollspy = document.querySelectorAll('.scrollspy');
             // M.Scrollspy.init(elemScrollspy);
+
+            $('#benefits-1, #benefits-1a').hover(function(){
+                $('.lottie-benefit').hide();
+                $('#lottie-benefit-1').show();
+            });
+            $('#benefits-2, #benefits-2a').hover(function(){
+                $('.lottie-benefit').hide();
+                $('#lottie-benefit-2').show();
+            });
+            $('#benefits-3, #benefits-3a').hover(function(){
+                $('.lottie-benefit').hide();
+                $('#lottie-benefit-3').show();
+            });
+            $('#benefits-4, #benefits-4a').hover(function(){
+                $('.lottie-benefit').hide();
+                $('#lottie-benefit-4').show();
+            });
 
             // array with texts to type in typewriter
             const dataText = [ "àjo", "isusu", "adashe"];
@@ -437,4 +490,17 @@
         }
     }
 </script>
+
+<style>
+.center-phone-div .w-full.relative {
+    opacity: 1 !important;
+    position: absolute;
+}
+/* #lottie-benefit-1 {
+    display: block;
+} */
+.lottie-benefit {
+    display: none;
+}
+</style>
 

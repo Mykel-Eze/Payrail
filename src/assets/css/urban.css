@@ -127,6 +127,7 @@ img.center-phone {
     position: absolute;
     z-index: 0;
     width: 30%;
+    cursor: pointer;
 }
 #benefits-1.benefits-img, #benefits-1a.benefits-img {
     left: -30%;
