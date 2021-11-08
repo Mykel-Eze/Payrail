@@ -51,7 +51,7 @@
                             <img src="../../assets/images/bg-strokes.png" alt="strokes" class="bg-strokes" />
                         </div> -->
                         <div>
-                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_l0galv9r.json`"
+                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_6gxrvnhi.json`"
                                 style="width:100%; height:600px"
                                 :background= "options.backgroundColor"
                                 :speed="options.speed"
@@ -96,8 +96,8 @@
                         <img src="../../assets/images/benefits-4a.png" alt="benefits-images" class="benefits-img n-img-2" id="benefits-4a"  data-aos="fade-up-left" />
                         <!-- <img src="../../assets/images/mobile-phone-a.png" alt="phone" class="center-phone"  data-aos="fade-up" /> -->
                         <div class="center-phone-div"  data-aos="fade-up">
-                            <img src="../../assets/images/mobile-phone-a.png" alt="phone" class="center-phone" style="opacity: 0 !important" />
-                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_fkz6avbc.json`"
+                            <img src="../../assets/images/mobile-view.png" alt="phone" class="center-phone" style="opacity: 0 !important" />
+                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_0lhbawza.json`"
                                 style="width:100%; height:600px"
                                 :background= "options.backgroundColor"
                                 :speed="options.speed"
@@ -105,7 +105,7 @@
                                 class="lottie-benefit"
                             >
                             </lottie-vue-player>
-                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_1sty8jtu.json`"
+                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_osooze1t.json`"
                                 style="width:100%; height:600px"
                                 :background= "options.backgroundColor"
                                 :speed="options.speed"
@@ -113,7 +113,7 @@
                                 class="lottie-benefit"
                             >
                             </lottie-vue-player>
-                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_vcp9lcll.json`"
+                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_6cwdrftm.json`"
                                 style="width:100%; height:600px"
                                 :background= "options.backgroundColor"
                                 :speed="options.speed"
@@ -121,7 +121,7 @@
                                 class="lottie-benefit"
                             >
                             </lottie-vue-player>
-                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_r0u55xa5.json`"
+                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_5i4x8c3v.json`"
                                 style="width:100%; height:600px"
                                 :background= "options.backgroundColor"
                                 :speed="options.speed"
@@ -132,8 +132,8 @@
                         </div>
                     </div>
                     <div class="col s12 visible-xs-sm pad0-xs benefits-img-container center">
-                        <img src="../../assets/images/full-benefits-img.png" alt="section-img" class="sect-img n-img-1" data-aos="fade-up" />
-                        <img src="../../assets/images/full-benefits-img-2.png" alt="section-img" class="sect-img n-img-2" data-aos="fade-up" />
+                        <img src="../../assets/images/benefits-full.png" alt="section-img" class="sect-img n-img-1" data-aos="fade-up" />
+                        <img src="../../assets/images/benefits-full-white.png" alt="section-img" class="sect-img n-img-2" data-aos="fade-up" />
                     </div>
                 </div>
             </div>
@@ -162,10 +162,10 @@
                     </div>
                     <div class="col s12 pad0 flex-tab-view">
                         <div class="col s12 l8 hidden-xs-sm">
-                            <img src="../../assets/images/phone-and-people-2.png" alt="phone and people" class="full-width sect-img" data-aos="fade-up" />
+                            <img src="../../assets/images/thrift.png" alt="phone and people" class="full-width sect-img" data-aos="fade-up" />
                         </div>
                         <div class="col s12 l8 visible-xs-sm tab-small-img-wrapper">
-                            <img src="../../assets/images/phone-and-people.png" alt="phone and people" class="full-width sect-img" data-aos="fade-up" />
+                            <img src="../../assets/images/thrift.png" alt="phone and people" class="full-width sect-img" data-aos="fade-up" />
                         </div>
                         <div class="col s12 l4">
                             <div class="sect1-list">
@@ -225,8 +225,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 l6 tab-small-img-wrapper">
-                        <img src="../../assets/images/phone-notification.png" alt="phone notification" class="full-width sect-img" data-aos="fade-up" />
+                    <div class="col s12 l6 tab-small-img-wrapper center">
+                        <img src="../../assets/images/bills-payment.png" alt="phone notification" class="full-width sect-img bills-pay-bg" data-aos="fade-up" />
                     </div>
                 </div>
             </div>
@@ -495,11 +495,15 @@
 .center-phone-div .w-full.relative {
     opacity: 1 !important;
     position: absolute;
+    top: -20px;
 }
-/* #lottie-benefit-1 {
+.center-phone-div lottie-player {
+    height: 120% !important;
+}
+#lottie-benefit-1 {
     display: block;
-} */
-.lottie-benefit {
+}
+.center-phone-div .lottie-benefit {
     display: none;
 }
 </style>

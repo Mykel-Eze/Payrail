@@ -4,7 +4,7 @@
         <section id="home" class="scrollspy">
             <div class="row rel">
                 <div class="col s12 l6" id="home-txt-side">
-                    <div class="home-minor-title">SIMPLIFYING MODERN COMMERCE</div>
+                    <div class="home-minor-title">Simplifying modern commerce</div>
                     <h1 class="home-title"> Helping solopreneurs and small businesses grow   </h1>
                     <p class="home-desc-txt">
                         who want an all-inclusive <span class="pry-color">banking service that works</span> - anywhere in Africa.
@@ -409,6 +409,37 @@
 
             // var elemScrollspy = document.querySelectorAll('.scrollspy');
             // M.Scrollspy.init(elemScrollspy);
+
+            // Key-Points Section --- Title Carousel
+            var titleIndex = 0;
+            titleCarousel();
+
+            function titleCarousel() {
+                var i;
+                var x = document.getElementsByClassName("int-img");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                titleIndex++;
+                if (titleIndex > x.length) {titleIndex = 1}    
+                x[titleIndex-1].style.display = "block";  
+                setTimeout(titleCarousel, 4000); // Change image every 2 seconds
+            }
+            // Key-Points Section --- Title Carousel
+            var titleIndex2 = 0;
+            titleCarousel2();
+
+            function titleCarousel2() {
+                var i;
+                var x = document.getElementsByClassName("txt-indicator-block");
+                for (i = 0; i < x.length; i++) {
+                    x[i].classList.remove("active-indicator-block");  
+                }
+                titleIndex2++;
+                if (titleIndex2 > x.length) {titleIndex2 = 1}    
+                x[titleIndex2-1].classList.add("active-indicator-block");
+                setTimeout(titleCarousel2, 4000); // Change image every 2 seconds
+            }
 
             const img = document.querySelector(".pci-img");
             document.body.classList.add("js-loading");

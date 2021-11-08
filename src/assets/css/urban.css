@@ -117,11 +117,12 @@ div#urban-wrapper {
     margin-top: -150px;
 }
 img.center-phone {
-    width: 75%;
+    width: 100%;
     min-width: 320px;
     position: relative;
     z-index: 1;
     opacity: 1 !important;
+    /* height: 100%; */
 }
 .benefits-img {
     position: absolute;
@@ -153,6 +154,26 @@ img.center-phone {
     width: 65%;
     /* max-width: 200px; */
 }
+.center-phone-div {
+    /* background: rebeccapurple; */
+    width: 76%;
+    margin: auto;
+    /* height: 700px; */
+    overflow: hidden;
+    border-radius: 60px;
+}
+img.bills-pay-bg {
+    width: 50%;
+}
+@media(hover: hover) {
+    img.benefits-img {
+        filter: grayscale(0.6);
+    }
+    img.benefits-img:hover {
+        filter: grayscale(0);
+    }
+}
+
 
 #urban-contents #sect-2 img.sect-img {
     width: 100%;
@@ -231,7 +252,7 @@ ul.sect-list > li .sect-list-title-div img {
         margin-bottom: 60px;
     }
     #urban-contents #sect-2 img.sect-img {
-        width: 115%;
+        width: 95%;
         max-width: initial;
     }
     .sect1-list {
@@ -387,4 +408,11 @@ ul.sect-list > li .sect-list-title-div img {
     .debit-card-txt {
         margin-bottom: 40px;
     }
+    .tab-small-img-wrapper.center {
+        margin-bottom: 50px;
+    }
+    /* #urban-contents section#sect-1 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    } */
 }

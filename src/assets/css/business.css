@@ -12,11 +12,6 @@ div#business-wrapper {
 #business-contents h1.home-title {
     font-size: 54px;
 }
-#business-contents .home-minor-title {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 18px;
-}
 #business-contents p.home-desc-txt {
     font-size: 16px;
     line-height: 21px;
@@ -30,7 +25,7 @@ div#business-wrapper {
     margin-left: 0;
 }
 #business-contents button.btn.subscribe-submit.pry-bg {
-    height: 46px;
+    height: 48px;
     background-color: var(--pry-color);
     color: white;
     border-radius: 28px;
@@ -39,6 +34,9 @@ div#business-wrapper {
     min-width: 125px;
     padding: 0 20px;
     font-weight: 500;
+    position: relative;
+    margin-top: -1px;
+    right: -1px;
 }
 
 #business-contents #home-txt-side {
