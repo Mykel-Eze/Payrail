@@ -49,9 +49,9 @@ nav .brand-logo {
     position: relative;
 }
 a.brand-logo img {
-    width: 168px;
+    width: 128px;
     position: relative;
-    top: 2px;
+    top: 12px;
 }
 nav.trans-nav ul.ul-nav {
     top: 10px;
