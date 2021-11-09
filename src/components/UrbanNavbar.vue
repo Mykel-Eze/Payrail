@@ -164,13 +164,19 @@
 </template>
 
 <script>
-// import $ from 'jquery'
+import $ from 'jquery'
 import M from 'materialize-css';
 export default {
     name: "UrbanNavbar",
     mounted() {
         var elemSidenav = document.querySelector('#slide-out-2');
         M.Sidenav.init(elemSidenav);
+
+        if(!$(window).scrollTop()) { //abuse 0 == false :)
+            $('nav.trans-nav').removeClass("scrolled-nav");
+        } else {
+            $('nav.trans-nav').addClass("scrolled-nav");
+        }
 
          /**
          * Determine the mobile operating system.

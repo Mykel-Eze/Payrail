@@ -97,7 +97,7 @@
                         <!-- <img src="../../assets/images/mobile-phone-a.png" alt="phone" class="center-phone"  data-aos="fade-up" /> -->
                         <div class="center-phone-div"  data-aos="fade-up">
                             <img src="../../assets/images/mobile-view.png" alt="phone" class="center-phone" style="opacity: 0 !important" />
-                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_0lhbawza.json`"
+                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_q9nenasi.json`"
                                 style="width:100%; height:600px"
                                 :background= "options.backgroundColor"
                                 :speed="options.speed"
@@ -105,7 +105,7 @@
                                 class="lottie-benefit"
                             >
                             </lottie-vue-player>
-                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_osooze1t.json`"
+                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_batu9bbi.json`"
                                 style="width:100%; height:600px"
                                 :background= "options.backgroundColor"
                                 :speed="options.speed"

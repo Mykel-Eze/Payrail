@@ -7,7 +7,7 @@
                     <div class="home-minor-title">Simplifying modern commerce</div>
                     <h1 class="home-title"> Helping solopreneurs and small businesses grow   </h1>
                     <p class="home-desc-txt">
-                        who want an all-inclusive <span class="pry-color">banking service that works</span> - anywhere in Africa.
+                        who want an all-inclusive <span class="pry-color">banking service that works.</span>
                     </p>
                     <div class="subscribe-form-wrapper">
                         <form action="#" id="subscribe-form" onSubmit="SaveEmails">
@@ -140,8 +140,13 @@
                             </span>
                         </div>
 
-                        <div class="col s12 pad0 sect-contents">
-                            <img src="../../assets/images/full-img-gallery.png" alt="full-img-gallery" class="full-width" data-aos="fade-up">
+                        <div class="col s12 pad0 sect-contents marquee-content">
+                            <div class="marquee-item">
+                                <img src="../../assets/images/full-img-gallery.png" alt="full-img-gallery" class="full-width" data-aos="fade-up">
+                            </div>
+                            <div class="marquee-item">
+                                <img src="../../assets/images/full-img-gallery.png" alt="full-img-gallery" class="full-width" data-aos="fade-up">
+                            </div>
                         </div>
                     </div>
                 </div>
