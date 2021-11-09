@@ -61,9 +61,9 @@ nav.scrolled-nav.trans-nav ul.ul-nav {
     top: 0;
 }
 nav.scrolled-nav a.brand-logo img {
-    width: 168px;
+    width: 128px;
     height: auto;
-    top: -5px;
+    top: 4px;
 }
 nav.scrolled-nav .brand-logo {
     top: 7px;
