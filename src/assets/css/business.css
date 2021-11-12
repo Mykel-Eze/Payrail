@@ -52,6 +52,20 @@ div#business-wrapper {
     background-color: #343434;
 }
 
+#business-contents input#subscriber-email-2 {
+    border: none;
+    background-color: transparent !important;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    border-radius: 28.5px;
+    padding: 0 20px;
+    height: 46px;
+    outline: none;
+    box-shadow: none;
+    width: auto;
+    flex-grow: 1;
+}
+
 
 @media(min-width: 993px) {
     #business-contents #home {
@@ -82,21 +96,26 @@ div#business-wrapper {
     }
 }
 @media(min-width: 601px) {
-    #business-contents #home form#subscribe-form .flex-div.input-field {
+    #business-contents .flex-div.input-field {
         margin: 0;
         background: rgba(255, 255, 255, 0.721709);
         border: 1px solid rgba(119, 119, 119, 0.2);
         box-sizing: border-box;
         border-radius: 28.5px;
     }
-    .theme-dark #business-contents #home form#subscribe-form .flex-div.input-field {
+    .theme-dark #business-contents .flex-div.input-field {
         background: rgba(255, 255, 255, 0.9);
     }
-    #business-contents input#subscriber-email-2 {
+    /* #business-contents input#subscriber-email-2 {
         background: #F9F9F9 !important;
         border: 1px solid rgba(119, 119, 119, 0.2);
         box-sizing: border-box;
         border-radius: 28.5px;
+    } */
+    #business-contents form#subscribe-form-2 button.btn.subscribe-submit.pry-bg {
+        height: 49px;
+        position: relative;
+        top: 0.5px;
     }
 }
 @media(max-width: 992px) {
@@ -116,6 +135,10 @@ div#business-wrapper {
     }
     #business-contents #home p.home-desc-txt, #business-contents .home-minor-title, h1.home-title {
         text-align: left;
+    }
+    #business-wrapper nav .brand-logo {
+        top: 0px;
+        position: relative;
     }
 }
 @media (max-width: 600px) {

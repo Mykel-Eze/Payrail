@@ -357,11 +357,11 @@
                 <div class="container">
                     <div class="black-bg black-wrapper">
                         <div class="col s12 m10 offset-m1 pad0-xs">
-                            <div class="col s12 m7">
+                            <div class="col s12 l7">
                                 <h4 class="sect-title white-txt">Sign up for free. <br /> Manage money with ease</h4> 
                             </div>
                             
-                            <div class="col s12 m5">
+                            <div class="col s12 l5">
                                 <div class="subscribe-form-wrapper">
                                     <form action="#" id="subscribe-form-2" onSubmit={SaveEmails}>
                                         <div class="flex-div input-field">
