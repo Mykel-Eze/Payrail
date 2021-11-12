@@ -51,7 +51,7 @@
                             <img src="../../assets/images/bg-strokes.png" alt="strokes" class="bg-strokes" />
                         </div> -->
                         <div>
-                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_6gxrvnhi.json`"
+                            <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_ftofuutj.json`"
                                 style="width:100%; height:600px"
                                 :background= "options.backgroundColor"
                                 :speed="options.speed"

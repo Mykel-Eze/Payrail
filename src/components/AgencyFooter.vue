@@ -117,8 +117,8 @@
                                 <a href="https://linkedin.com/company/" target="_blank" rel="noreferrer" class="social-link">
                                     <img src="../assets/images/linkedin-yellow.svg" alt="linkedin" class="hover-scale" />
                                 </a>
-                                <a href="https://youtube.com/" target="_blank" rel="noreferrer" class="social-link">
-                                    <img src="../assets/images/youtube-yellow.svg" alt="youtube" class="hover-scale" />
+                                <a href="https://instagram.com/payrail_agency" target="_blank" rel="noreferrer" class="social-link">
+                                    <img src="../assets/images/instagram-yellow.svg" alt="instagram" class="hover-scale" />
                                 </a>
                             </li>
                         </ul>

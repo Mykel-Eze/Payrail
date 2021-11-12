@@ -19,9 +19,9 @@ div#urban-wrapper {
     border-color: var(--pry-color);
 }
 
-.agency-logo, .agency-download-btn-wrapper, .agency-stuff {
+/* .agency-logo, .agency-download-btn-wrapper, .agency-stuff {
     display: none !important;
-}
+} */
 .urban-logo, .urban-download-btn-wrapper {
     display: initial !important;
 }
