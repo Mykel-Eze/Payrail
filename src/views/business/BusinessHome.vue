@@ -7,7 +7,7 @@
                     <div class="home-minor-title">Simplifying modern commerce</div>
                     <h1 class="home-title"> Helping solopreneurs and small businesses grow   </h1>
                     <p class="home-desc-txt">
-                        who want an all-inclusive <span class="pry-color">banking service that works.</span>
+                        into an all-inclusive <span class="pry-color">banking service that works.</span>
                     </p>
                     <div class="subscribe-form-wrapper">
                         <form action="#" id="subscribe-form" onSubmit="SaveEmails">
