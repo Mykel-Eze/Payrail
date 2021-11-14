@@ -71,9 +71,7 @@
                     <div class="mid-sect-wrapper center col s12 m10 offset-m1 l6 offset-l3">
                         <h3 class="sect-title">When you <br/> Choose Payrail</h3>
                         <p class="mid-sect-p rel">
-                            You are confident of a better grip of your day-to-day transactions, savings and investments.  
-                            We help you manage every bit of your finances on the go - following the best money management 
-                            practices.
+                            You are confident of a better grip of your day-to-day transactions. 
                         </p>
                     </div>
                 </div>
@@ -156,8 +154,7 @@
                                 </TextLoop> -->
                         </h3>
                         <p class="sect-desc">
-                            An easy, stress free way to save alongside people you trust. Amp up your savings and achieve 
-                            your financial goals while saving with friends.
+                            An easy, stress free way to save alongside people you trust. 
                         </p>
                     </div>
                     <div class="col s12 pad0 flex-tab-view">
@@ -170,25 +167,21 @@
                         <div class="col s12 l4">
                             <div class="sect1-list">
                                 <div class="sect1-list-block">
-                                    <h4 class="slb-title">Convenient</h4>
+                                    <h4 class="slb-title">No more loss</h4>
                                     <p class="slb-content">
-                                        You will never have to chase another uncooperative group member, worry about late 
-                                        payments or deal with complicated paperwork. We do all the heavy lifting for you. 
+                                        You will never have to chase another uncooperative group member.
                                     </p>
                                 </div>
                                 <div class="sect1-list-block">
-                                    <h4 class="slb-title">Time saving</h4>
+                                    <h4 class="slb-title">Why waste time</h4>
                                     <p class="slb-content">
-                                        Time is free but your time is priceless. Once you've lost it, you can never get it back. 
-                                        Payrail will handle all savings payments  and divisions while you maximise your time 
-                                        doing other productive things.
+                                        Time is free but your time is priceless. Payrail handles all savings payments and divisions.
                                     </p>
                                 </div>
                                 <div class="sect1-list-block">
                                     <h4 class="slb-title">Secure</h4>
                                     <p class="slb-content">
-                                    We are committed to keeping your money safe and protecting your account. Our word is our bond 
-                                    and with Payroll, you will never have to worry about the status of your funds.
+                                        We will keep your money safe and protect your account. 
                                     </p>
                                 </div>
                             </div>
@@ -209,17 +202,15 @@
                                 <div class="sect1-list-block">
                                     <h3 class="sect-title">Optimized Functionality</h3>
                                     <p class="slb-content">
-                                    Payrail helps you automate your subscription bills enabling 
-                                    you to have a stress free and functional life.
+                                        Payrail helps you automate your subscription bills enabling 
+                                        you to have a stress free life.
                                     </p>
                                 </div>
                                 <div class="sect1-list-block">
                                     <h3 class="sect-title">Personalized Notifications</h3>
                                     <p class="slb-content">
-                                    The days you got cut off from services you enjoy are long gone - 
-                                    because we are here to prompt you - always. Each user gets a personalized reminder 
-                                    about recurring bills like;  Dstv subscriptions, electricity bills, and every other 
-                                    utility bills. 
+                                        The days you got cut off from services you enjoy are long gone. 
+                                        We are here to prompt you - always. 
                                     </p>
                                 </div>
                             </div>
@@ -244,8 +235,8 @@
                     <div class="col s12 l6 sec-mag-down">
                         <h3 class="sect-title">Maintenance fees are no business of yours</h3>
                         <p class="mid-sect-p rel text-justify-xs">
-                        We would house your account and ensure that your data and funds are well protected at all times. 
-                        But at no cost whatsoever.
+                            We would house your account and ensure that your data and funds are well protected at all times. 
+                            At no cost whatsoever.
                         </p>
                         <ul class="sect-list sec-list-grid">
                             <li>
@@ -284,9 +275,8 @@
                                     <span>Bank-grade Security</span>
                                 </div>
                                 <p class="slb-content text-justify">
-                                    All cards and bank data are encrypted to prevent unauthorised access to sensitive 
-                                    data and our payment processors are PCI-DSS compliant to ensure security of all your 
-                                    electronic information. 
+                                    All cards and bank data are encrypted to prevent unauthorised access to sensitive data. 
+                                    Our payment processors are also PCI-DSS compliant.
                                 </p>
                             </li>
                             <li>
@@ -295,9 +285,8 @@
                                     <span>Regulatory Compliance</span>
                                 </div>
                                 <p class="slb-content text-justify">
-                                    We are a duly registered fund managing company with the Securities and Exchange Commission 
-                                    (SEC) of Nigeria and our financial activities are in full compliance with regulatory 
-                                    requirements.
+                                    We are a duly registered fund managing company with the Securities and Exchange 
+                                    Commission (SEC) of Nigeria.
                                 </p>
                             </li>
                             <li>
@@ -306,8 +295,8 @@
                                     <span>Two-Factor Authentication</span>
                                 </div>
                                 <p class="slb-content text-justify">
-                                    You are more than just a username and password to us which is key transactions pass through 
-                                    the 2FA verification process on Payrail. 
+                                    You are more than just a username and password to us which is key transactions pass 
+                                    through the 2FA verification process on Payrail.
                                 </p>
                             </li>
                             <li>
@@ -316,8 +305,8 @@
                                     <span>Best Insurance Product</span>
                                 </div>
                                 <p class="slb-content text-justify">
-                                All the insurance options listed on Payrail, are carefully screened, managed by Angala Insurtech, 
-                                registered with the SEC, and has a standard third-party custodian structure.
+                                    All the insurance options listed on Payrail, are carefully screened, managed by Angala 
+                                    Insurtech, registered with the SEC, and has a standard third-party custodian structure.
                                 </p>
                             </li>
                         </ul>
@@ -343,7 +332,7 @@
                             <div class="debit-cards-txt-div">
                                 <div class="debit-card-title">DEBIT CARD</div>
                                 <div class="debit-card-txt">
-                                    Instantly create virtual and physical naira cards to handle your all your payments
+                                    Create a virtual and physical naira card to handle  all your payments hassle free.
                                 </div>
                             </div>
                         </div>
