@@ -506,5 +506,13 @@
 .center-phone-div .lottie-benefit {
     display: none;
 }
+/* div#home-img-side div#animation svg {
+    transform: translate(50%);
+} */
+@media(min-width: 993px) {
+    div#home-img-side lottie-player {
+        transform: translate(26%);
+    }
+}
 </style>
 
