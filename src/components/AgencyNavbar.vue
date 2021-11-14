@@ -232,3 +232,11 @@ export default {
 
 <style src="../assets/css/navbar.css"></style>
 <style scoped src="../assets/css/navbar.css"></style>
+
+<style scoped>
+@media(max-width: 992px) {
+    nav.scrolled-nav a.brand-logo img {
+        top: -4px;
+    }
+}
+</style>
