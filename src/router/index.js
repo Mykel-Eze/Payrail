@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-// import Home from '../views/Home.vue'
+import Home from '../views/Home.vue'
 
 import ErrorPage from '../views/Error404'
+
 // Agency Pages
 import Agency from '../views/agency/AgencyIndex'
 import AgencyHome from '../views/agency/AgencyHome'
@@ -22,8 +23,8 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    component: Urban,
-    redirect: '/urban'
+    component: Home,
+    name: 'Home'
   },
   {
     path: '/urban',
