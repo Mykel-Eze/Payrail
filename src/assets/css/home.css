@@ -12,19 +12,25 @@
     mix-blend-mode: multiply;
     opacity: 0.88;
 }
-#urban-section {
+#landing-section {
+    background-color: #F2F2F2 !important;
+}
+#landing-section::before {
+    display: none;
+}
+#urban {
     background: url(../images/urban-sect-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-#agency-section {
+#agency {
     background: url(../images/agency-sect-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-#business-section {
+#business {
     background: url(../images/business-sect-bg.jpg);
     background-size: cover;
     background-position: center;
@@ -62,11 +68,21 @@ section.section-nav {
 img.section-logo {
     width: 70%;
 }
+#landing-section img.section-logo {
+    width: 85%;
+}
 button.audio-trigger {
     background: transparent;
     border: none;
     padding: 0;
     cursor: pointer;
+}
+#landing-section button.audio-trigger {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
 }
 .sound-and-signin.flex-div {
     width: 145px;
@@ -78,6 +94,9 @@ button.audio-trigger {
     padding: 0 15px;
     font-size: 14px;
     line-height: 18px;
+}
+#landing-section .sound-and-signin.flex-div {
+    background: transparent;
 }
 .sound-and-signin a.flex-div {
     color: white;
@@ -211,6 +230,12 @@ section.home-footer {
 section.home-footer a {
     color: white;
 }
+#landing-section section.home-footer {
+    color: #6E7883;
+}
+#landing-section section.home-footer a {
+    color: #EF6B25;
+}
 
 @keyframes rotateClockwise {
     from {
@@ -244,13 +269,14 @@ section.menu-indicator-wrapper {
     top: 50%;
     transform: translateY(-50%);
 }
-ul.menu.menu-indicator .page-indicator {
+ul.menu.menu-indicator .page-indicator a {
     display: flex;
     align-items: center;
     color: white;
     font-size: 14px;
     line-height: 27px;
 }
+/* ul.menu.menu-indicator .page-indicator a {} */
 ul.menu.menu-indicator hr {
     width: 0.5px;
     height: 60px;
@@ -269,16 +295,19 @@ ul.menu.menu-indicator hr {
     position: relative;
 }
 .indicator-bullet::before {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     position: absolute;
     content: "";
-    top: 10%;
-    left: 10%;
+    top: 15%;
+    left: 15%;
     border-radius: 50%;
     opacity: 0;
     transition: opacity 1s;
     /* background-color: gray; */
+}
+.active .indicator-bullet {
+    background: rgba(255, 255, 255, 0.2);
 }
 .active .indicator-bullet::before {
     opacity: 1;
@@ -302,14 +331,19 @@ ul.menu.menu-indicator hr {
     transition: opacity 1.5s;
 }
 .text-desc-block-wrapper {
-    position: absolute;
-    width: 100%;
+    position: fixed;
+    width: 90%;
     bottom: 20%;
-    z-index: 10;
+    z-index: 2;
+    right: 0;
 }
 .text-desc-block-wrapper > .container {
     display: flex;
     justify-content: flex-end;
+    display: none;
+}
+.text-desc-block-wrapper > .container.active {
+    display: flex;
 }
 .text-desc-block {
     max-width: 310px;
@@ -324,16 +358,35 @@ ul.menu.menu-indicator hr {
 .scroll-line {
     font-size: 18px;
     line-height: 23px;
-    transform: rotate(90deg) translateY(50%);
+    transform: rotate(90deg) translateY(50%) translateX(0%);
     position: absolute;
-    bottom: 100px;
+    bottom: 60px;
     left: 50%;
+    animation: bounce infinite ease-in-out 8s;
+}
+#landing-section .scroll-line {
+    color: #C92135;
 }
 .scroll-line img {
     width: 30px;
 }
 .visit-site-btn {
     display: none;
+}
+h4.section-block-title {
+    font-size: 38px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: rotate(90deg) translateY(50%) translateX(0%);
+    }
+    50% {
+        transform: rotate(90deg) translateY(50%) translateX(-30%);
+    }
+    100% {
+        transform: rotate(90deg) translateY(50%) translateX(0%);
+    }
 }
 
 @media (max-width: 992px) {
@@ -355,8 +408,17 @@ ul.menu.menu-indicator hr {
         mix-blend-mode: multiply;
         opacity: 0.88;
     }
+    .scroll-wheel-wrapper {
+        width: 100%;
+    }
+    .sound-and-signin.flex-div {
+        width: 130px;
+        height: 38px;
+    }
     .text-desc-block-wrapper {
         bottom: 20px;
+        left: 0;
+        right: auto;
     }
     .text-desc-block-wrapper > .container {
         justify-content: flex-start;
@@ -370,6 +432,10 @@ ul.menu.menu-indicator hr {
     }
     .text-desc-block:hover {
         background-color: transparent;
+    }
+    h4.section-block-title {
+        font-size: 30px;
+        font-weight: 500;
     }
     .visit-site-btn {
         display: initial;

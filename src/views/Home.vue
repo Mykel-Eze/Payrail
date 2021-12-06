@@ -39,25 +39,64 @@
       <div class="container">
         <ul class="menu menu-indicator">
           <li class="page-indicator urban-indicator" data-menuanchor="urban">
-            <span class="indicator-bullet"></span>
-            <span class="indicator-title">Payrail Urban</span>
+            <a href="#urban">
+              <span class="indicator-bullet"></span>
+              <span class="indicator-title">Payrail Urban</span>
+            </a>
           </li>
           <hr />
           <li class="page-indicator agency-indicator" data-menuanchor="agency">
-            <span class="indicator-bullet"></span>
-            <span class="indicator-title">Payrail Agency</span>
+            <a href="#agency">
+              <span class="indicator-bullet"></span>
+              <span class="indicator-title">Payrail Agency</span>
+            </a>
           </li>
           <hr />
           <li class="page-indicator business-indicator" data-menuanchor="business">
-            <span class="indicator-bullet"></span>
-            <span class="indicator-title">Payrail Business</span>
+            <a href="#business">
+              <span class="indicator-bullet"></span>
+              <span class="indicator-title">Payrail Business</span>
+            </a>
           </li>
         </ul>
       </div>
     </section>
 
+    <section class="text-desc-block-wrapper menu">
+      <div class="container" data-menuanchor="urban">
+        <router-link to="/urban" tag="div" class="text-desc-block">
+          <h4 class="section-block-title">Payrail Urban</h4>
+          <div class="section-desc-txt">
+            Accelerating financial ease-on the go. You are confident of a better grip of your day-to-day transactions
+          </div>
+          <button class="visit-site-btn">Visit Site</button>
+        </router-link>
+      </div>
+
+      <div class="container" data-menuanchor="agency">
+        <router-link to="/agency" tag="div" class="text-desc-block">
+          <h4 class="section-block-title">Payrail Agency</h4>
+          <div class="section-desc-txt">
+            Your branchless Next-door Banking. Built for Super agents and agents; enabling multiple type transactions in an 
+            easy, convenient, and cost-effective manner.
+          </div>
+          <button class="visit-site-btn">Visit Site</button>
+        </router-link>
+      </div>
+
+      <div class="container" data-menuanchor="business">
+        <router-link to="/business" tag="div" class="text-desc-block">
+          <h4 class="section-block-title">Payrail Business</h4>
+          <div class="section-desc-txt">
+            Helping solopreneurs and small businesses grow into an all-inclusive banking service that works.
+          </div>
+          <button class="visit-site-btn">Visit Site</button>
+        </router-link>
+      </div>
+    </section>
+
     <full-page ref="fullpage" :options="options" id="fullpage">
-      <div class="section rel" id="urban-section">
+      <div class="section rel" id="urban">
         <section class="section-nav">
           <div class="container">
             <div class="flex-div justify-content-btw">
@@ -77,18 +116,6 @@
           </div>
         </section>
 
-        <section class="text-desc-block-wrapper">
-          <div class="container">
-            <router-link to="/urban" tag="div" class="text-desc-block">
-              <h4 class="section-block-title">Payrail Urban</h4>
-              <div class="section-desc-txt">
-                Accelerating financial ease-on the go. You are confident of a better grip of your day-to-day transactions
-              </div>
-              <button class="visit-site-btn">Visit Site</button>
-            </router-link>
-          </div>
-        </section>
-
         <div class="scroll-line flex-div">
           <span>Scroll</span>
           <img src="../assets/images/line.svg" alt="line">
@@ -96,13 +123,13 @@
 
         <section class="home-footer">
           <div class="container">
-            <p>
+            <!-- <p>
               This website uses <a href="/#" target="_blank" rel="noopener noreferrer"><u>Cookies ↗</u></a>  
               We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. 
               The content on this website does not constitute a complete description of Payrail or Angala Fintech services. 
               By using this website, you accept our <a href="/#" target="_blank" rel="noopener noreferrer">Terms of Use</a> 
               and <a href="/#">Privacy Policy</a>.
-            </p>
+            </p> -->
             <p class="copyright-p">
               © Angala Financial Technologies Limited. All Rights Reserved.
             </p>
@@ -110,7 +137,7 @@
         </section>
       </div>
 
-      <div class="section rel" id="agency-section">
+      <div class="section rel" id="agency">
         <section class="section-nav">
           <div class="container">
             <div class="flex-div justify-content-btw">
@@ -130,18 +157,6 @@
           </div>
         </section>
 
-        <section class="text-desc-block-wrapper">
-          <div class="container">
-            <router-link to="/agency" tag="div" class="text-desc-block">
-              <h4 class="section-block-title">Payrail Agency</h4>
-              <div class="section-desc-txt">
-                Accelerating financial ease-on the go. You are confident of a better grip of your day-to-day transactions
-              </div>
-              <button class="visit-site-btn">Visit Site</button>
-            </router-link>
-          </div>
-        </section>
-
         <div class="scroll-line flex-div">
           <span>Scroll</span>
           <img src="../assets/images/line.svg" alt="line">
@@ -149,13 +164,13 @@
 
         <section class="home-footer">
           <div class="container">
-            <p>
+            <!-- <p>
               This website uses <a href="/#" target="_blank" rel="noopener noreferrer"><u>Cookies ↗</u></a>  
               We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. 
               The content on this website does not constitute a complete description of Payrail or Angala Fintech services. 
               By using this website, you accept our <a href="/#" target="_blank" rel="noopener noreferrer">Terms of Use</a> 
               and <a href="/#">Privacy Policy</a>.
-            </p>
+            </p> -->
             <p class="copyright-p">
               © Angala Financial Technologies Limited. All Rights Reserved.
             </p>
@@ -163,7 +178,7 @@
         </section>
       </div>
 
-      <div class="section rel" id="business-section">
+      <div class="section rel" id="business">
         <section class="section-nav">
           <div class="container">
             <div class="flex-div justify-content-btw">
@@ -183,18 +198,6 @@
           </div>
         </section>
 
-        <section class="text-desc-block-wrapper">
-          <div class="container">
-            <router-link to="/business" tag="div" class="text-desc-block">
-              <h4 class="section-block-title">Payrail Business</h4>
-              <div class="section-desc-txt">
-                Accelerating financial ease-on the go. You are confident of a better grip of your day-to-day transactions
-              </div>
-              <button class="visit-site-btn">Visit Site</button>
-            </router-link>
-          </div>
-        </section>
-
         <div class="scroll-line flex-div">
           <span>Scroll</span>
           <img src="../assets/images/line.svg" alt="line">
@@ -202,13 +205,13 @@
 
         <section class="home-footer">
           <div class="container">
-            <p>
+            <!-- <p>
               This website uses <a href="/#" target="_blank" rel="noopener noreferrer"><u>Cookies ↗</u></a>  
               We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. 
               The content on this website does not constitute a complete description of Payrail or Angala Fintech services. 
               By using this website, you accept our <a href="/#" target="_blank" rel="noopener noreferrer">Terms of Use</a> 
               and <a href="/#">Privacy Policy</a>.
-            </p>
+            </p> -->
             <p class="copyright-p">
               © Angala Financial Technologies Limited. All Rights Reserved.
             </p>
@@ -231,6 +234,7 @@ export default {
           scrollBar: false,
           menu: '.menu',
           navigation: false,
+          continuousVertical: true,
           anchors: ['urban', 'agency', 'business'],
           sectionsColor: ['#1c1c1c']
         },
