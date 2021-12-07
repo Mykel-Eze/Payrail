@@ -106,7 +106,7 @@
               <div class="sound-and-signin flex-div">
                 <button class="audio-trigger">
                   <img src="../assets/images/audio-icon-black.svg" alt="audio icon" class="audio-icon">
-                  <img src="../assets/images/mute-audio-icon.svg" alt="muted audio icon" class="audio-icon muted-icon">
+                  <img src="../assets/images/mute-2.svg" alt="muted audio icon" class="audio-icon muted-icon">
                 </button>
                 <router-link to="/#" class="flex-div">
                   <span>Sign in</span>
@@ -148,7 +148,7 @@
               <div class="sound-and-signin flex-div">
                 <button class="audio-trigger">
                   <img src="../assets/images/audio-icon-black.svg" alt="audio icon" class="audio-icon">
-                  <img src="../assets/images/mute-audio-icon.svg" alt="muted audio icon" class="audio-icon muted-icon">
+                  <img src="../assets/images/mute-2.svg" alt="muted audio icon" class="audio-icon muted-icon">
                 </button>
                 <router-link to="/#" class="flex-div">
                   <span>Sign in</span>
@@ -185,12 +185,12 @@
           <div class="container">
             <div class="flex-div justify-content-btw">
               <router-link to="/#" class="section-logo-link">
-                <img src="../assets/images/agency-white.svg" alt="payrail agency" class="section-logo">
+                <img src="../assets/images/business-white.svg" alt="payrail business" class="section-logo">
               </router-link>
               <div class="sound-and-signin flex-div">
                 <button class="audio-trigger">
                   <img src="../assets/images/audio-icon-black.svg" alt="audio icon" class="audio-icon">
-                  <img src="../assets/images/mute-audio-icon.svg" alt="muted audio icon" class="audio-icon muted-icon">
+                  <img src="../assets/images/mute-2.svg" alt="muted audio icon" class="audio-icon muted-icon">
                 </button>
                 <router-link to="/#" class="flex-div">
                   <span>Sign in</span>

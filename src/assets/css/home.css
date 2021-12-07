@@ -420,6 +420,9 @@ h4.section-block-title {
         mix-blend-mode: multiply;
         opacity: 0.88;
     }
+    div#business-section {
+        background-position: 30%;
+    }
     .scroll-wheel-wrapper {
         width: 100%;
     }
