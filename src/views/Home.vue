@@ -3,19 +3,19 @@
     <div class="scroll-wheel-wrapper">
       <ul class="scroll-wheel wheel-item menu" id="menu-wheel">
         <li data-menuanchor="urban" class="scrolled-point urban-point">
-          <a href="#urban">
+          <a href="#urban" onmouseenter="window.location.href='/#urban'">
             <img src="../assets/images/urban-disabled.svg" alt="urban-icon" class="disabled-icon">
             <img src="../assets/images/urban-active.svg" alt="urban-icon" class="active-icon">
           </a>
         </li>
         <li data-menuanchor="agency" class="scrolled-point agency-point">
-          <a href="#agency">
+          <a href="#agency" onmouseenter="window.location.href='/#agency'">
             <img src="../assets/images/agency-disabled.svg" alt="agency-icon" class="disabled-icon">
             <img src="../assets/images/agency-active.svg" alt="agency-icon" class="active-icon">
           </a>
         </li>
         <li data-menuanchor="business" class="scrolled-point business-point">
-          <a href="#business">
+          <a href="#business" onmouseenter="window.location.href='/#business'">
             <img src="../assets/images/business-disabled.svg" alt="business-icon" class="disabled-icon">
             <img src="../assets/images/business-active.svg" alt="business-icon" class="active-icon">
           </a>
@@ -96,7 +96,7 @@
     </section>
 
     <full-page ref="fullpage" :options="options" id="fullpage">
-      <div class="section rel" id="urban">
+      <div class="section rel" id="urban-section">
         <section class="section-nav">
           <div class="container">
             <div class="flex-div justify-content-btw">
@@ -106,6 +106,7 @@
               <div class="sound-and-signin flex-div">
                 <button class="audio-trigger">
                   <img src="../assets/images/audio-icon-black.svg" alt="audio icon" class="audio-icon">
+                  <img src="../assets/images/mute-audio-icon.svg" alt="muted audio icon" class="audio-icon muted-icon">
                 </button>
                 <router-link to="/#" class="flex-div">
                   <span>Sign in</span>
@@ -137,7 +138,7 @@
         </section>
       </div>
 
-      <div class="section rel" id="agency">
+      <div class="section rel" id="agency-section">
         <section class="section-nav">
           <div class="container">
             <div class="flex-div justify-content-btw">
@@ -147,6 +148,7 @@
               <div class="sound-and-signin flex-div">
                 <button class="audio-trigger">
                   <img src="../assets/images/audio-icon-black.svg" alt="audio icon" class="audio-icon">
+                  <img src="../assets/images/mute-audio-icon.svg" alt="muted audio icon" class="audio-icon muted-icon">
                 </button>
                 <router-link to="/#" class="flex-div">
                   <span>Sign in</span>
@@ -178,7 +180,7 @@
         </section>
       </div>
 
-      <div class="section rel" id="business">
+      <div class="section rel" id="business-section">
         <section class="section-nav">
           <div class="container">
             <div class="flex-div justify-content-btw">
@@ -188,6 +190,7 @@
               <div class="sound-and-signin flex-div">
                 <button class="audio-trigger">
                   <img src="../assets/images/audio-icon-black.svg" alt="audio icon" class="audio-icon">
+                  <img src="../assets/images/mute-audio-icon.svg" alt="muted audio icon" class="audio-icon muted-icon">
                 </button>
                 <router-link to="/#" class="flex-div">
                   <span>Sign in</span>
@@ -223,7 +226,7 @@
 </template>
 
 <script>
-// import $ from 'jquery';
+import $ from 'jquery';
 export default {
   name: 'Home',
   components: {},
@@ -236,11 +239,22 @@ export default {
           navigation: false,
           continuousVertical: true,
           anchors: ['urban', 'agency', 'business'],
-          sectionsColor: ['#1c1c1c']
+          sectionsColor: ['#1c1c1c'],
+          onLeave: function(){
+            if(!($(".audio-trigger").hasClass("muted"))) {
+              var audio  = new Audio('https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/click.mp3');
+              // var audio2 = new Audio('https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/clickUp.mp3')
+              audio.load();
+              audio.play();
+            }
+          }
         },
       }
     },
   mounted() {
+    $(".audio-trigger").click(function(){
+      $(".audio-trigger").toggleClass("muted");
+    })
   }
 }
 </script>

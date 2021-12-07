@@ -18,19 +18,19 @@
 #landing-section::before {
     display: none;
 }
-#urban {
+#urban-section {
     background: url(../images/urban-sect-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-#agency {
+#agency-section {
     background: url(../images/agency-sect-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-#business {
+#business-section {
     background: url(../images/business-sect-bg.jpg);
     background-size: cover;
     background-position: center;
@@ -103,6 +103,15 @@ button.audio-trigger {
 }
 img.audio-icon {
     width: 20px;
+}
+.audio-icon.muted-icon {
+    display: none;
+}
+.muted .audio-icon {
+    display: none;
+}
+.muted .audio-icon.muted-icon {
+    display: initial;
 }
 .sound-and-signin a.flex-div > span {
     margin-right: 12px;
@@ -269,6 +278,9 @@ section.menu-indicator-wrapper {
     top: 50%;
     transform: translateY(-50%);
 }
+ul.menu.menu-indicator {
+    max-width: 200px;
+}
 ul.menu.menu-indicator .page-indicator a {
     display: flex;
     align-items: center;
@@ -334,7 +346,7 @@ ul.menu.menu-indicator hr {
     position: fixed;
     width: 90%;
     bottom: 20%;
-    z-index: 2;
+    z-index: 10;
     right: 0;
 }
 .text-desc-block-wrapper > .container {
