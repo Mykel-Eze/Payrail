@@ -338,7 +338,7 @@ ul.menu.menu-indicator hr {
     opacity: 0;
     transition: opacity 1s;
 }
-.active .indicator-title {
+.page-indicator:hover .indicator-title {
     opacity: 1;
     transition: opacity 1.5s;
 }
