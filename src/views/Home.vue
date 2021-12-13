@@ -3,19 +3,19 @@
     <div class="scroll-wheel-wrapper">
       <ul class="scroll-wheel wheel-item menu" id="menu-wheel">
         <li data-menuanchor="urban" class="scrolled-point urban-point">
-          <a href="#urban" onmouseenter="window.location.href='/#urban'">
+          <a href="/urban" onmouseenter="window.location.href='/#urban'">
             <img src="../assets/images/urban-disabled.svg" alt="urban-icon" class="disabled-icon">
             <img src="../assets/images/urban-active.svg" alt="urban-icon" class="active-icon">
           </a>
         </li>
         <li data-menuanchor="agency" class="scrolled-point agency-point">
-          <a href="#agency" onmouseenter="window.location.href='/#agency'">
+          <a href="/agency" onmouseenter="window.location.href='/#agency'">
             <img src="../assets/images/agency-disabled.svg" alt="agency-icon" class="disabled-icon">
             <img src="../assets/images/agency-active.svg" alt="agency-icon" class="active-icon">
           </a>
         </li>
         <li data-menuanchor="business" class="scrolled-point business-point">
-          <a href="#business" onmouseenter="window.location.href='/#business'">
+          <a href="/business" onmouseenter="window.location.href='/#business'">
             <img src="../assets/images/business-disabled.svg" alt="business-icon" class="disabled-icon">
             <img src="../assets/images/business-active.svg" alt="business-icon" class="active-icon">
           </a>
