@@ -51,10 +51,10 @@
                                 <a href="/" class="">Ambassadors</a>
                             </li>
                             <li>
-                                <a href="/" class="">Privacy</a>
+                                <a href="/agency/privacy" class="">Privacy</a>
                             </li>
                             <li>
-                                <a href="/" class="">Terms</a>
+                                <a href="/agency/terms" class="">Terms</a>
                             </li>
                         </ul>
                     </div>
@@ -199,8 +199,8 @@
                             This website uses <a href="/" class="pry-color" target="_blank" rel="noopener noreferrer"> Cookies ↗ </a>  
                             We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. 
                             The content on this website does not constitute a complete description of Payrail or Angala Fintech services. 
-                            By using this website, you accept our <a href="/" class="pry-color" target="_blank" rel="noopener noreferrer"> Terms of Use </a> 
-                            and <a href="/" class="pry-color" target="_blank" rel="noopener noreferrer"> Privacy Policy</a>.
+                            By using this website, you accept our <a href="/agency/terms" class="pry-color" target="_blank" rel="noopener noreferrer"> Terms of Use </a> 
+                            and <a href="/agency/privacy" class="pry-color" target="_blank" rel="noopener noreferrer"> Privacy Policy</a>.
                         </p>
                     </div>
                 </div>
