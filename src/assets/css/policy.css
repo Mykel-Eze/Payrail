@@ -31,3 +31,9 @@ ol.pb-sub-list > li {
     list-style: lower-roman;
     padding: 2px 0;
 }
+
+@media(max-width: 600px) {
+    .policy-block-texts, .sub-policy-block-texts {
+        text-align: justify;
+    }
+}

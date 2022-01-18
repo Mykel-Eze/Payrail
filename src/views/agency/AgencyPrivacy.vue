@@ -115,7 +115,7 @@
                             Market Payrail Agency products and services to you. Use cookies to provide a targeted display, 
                             feature, service or offer to you. Send communications about the product to you by SMS or email 
                             if you have opted in to receive them.
-                        </span>
+                        </span> <br />
                         <i>Moving forward, you can withdraw your consent at any time you so desire and at no cost whatsoever.</i>
                     </p>
                 </div>
