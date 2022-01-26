@@ -180,7 +180,7 @@
                     </p>
                     <p class="sub-policy-block-texts">
                         <b class="sub-policy-title">
-                            <span>5.3</span> To protect the vital interests of a person:
+                            <span>5.6</span> To protect the vital interests of a person:
                         </b>
                         <span>
                             With credit agencies and data processors for credit reference checks and anti-fraud and compliance purposes;
@@ -295,7 +295,7 @@
                     </p>
                     <p class="sub-policy-block-texts">
                         <b class="sub-policy-title">
-                            <span>7.4</span> Requests to Restrict
+                            <span>7.5</span> Requests to Restrict
                         </b>
                         <span>
                             You have the right to ask us to restrict the processing of your Personal Data if:
@@ -326,7 +326,7 @@
                     </p>
                     <p class="sub-policy-block-texts">
                         <b class="sub-policy-title">
-                            <span>7.5</span> Requests for Portability
+                            <span>7.6</span> Requests for Portability
                         </b>
                         <span>
                             If our processing is performed by computer and is necessary to fulfil a contract with you, or is based on your consent, 
@@ -339,7 +339,7 @@
                     </p>
                     <p class="sub-policy-block-texts">
                         <b class="sub-policy-title">
-                            <span>7.6</span> Requests to Object to Automated Decisions
+                            <span>7.7</span> Requests to Object to Automated Decisions
                         </b>
                         <span>
                             Generally, you have the right to object to any decision producing a legal effect concerning you or which otherwise 
