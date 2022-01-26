@@ -10,8 +10,8 @@
                         <span>Consent</span>
                     </h4>
                     <p class="policy-block-texts">
-                        You, as a user or visitor, accept this privacy policy when you give consent upon access to 
-                        our platforms, use the services offered on our website or application. 
+                        You, as a user or visitor, accept this privacy policy when you give consent upon access 
+                        to our platforms, or use the services offered on our website and/or application. 
                     </p>
                 </div>
                 <div class="policy-block">
@@ -20,8 +20,8 @@
                         <span>Which of your personal Data do we collect?</span>
                     </h4>
                     <p class="policy-block-texts">
-                        We collect Personal Data about you when you use the services offered on our website and digital 
-                        platform, including the following:
+                        We collect Personal Data about you when you use the services offered on our website and 
+                        digital platform, including the following:
                     </p>
                     <p class="sub-policy-block-texts">
                         <b class="sub-policy-title">
@@ -29,9 +29,9 @@
                         </b>
                         <span>
                             When you register to use the services offered on our digital platform, we will collect important 
-                            Personal Data in order to on-board you. These information include:  your name, email address, mobile 
-                            phone number and card details. Subsequently, we may require you to provide additional personal details 
-                            as you use our services.
+                            Personal Data in order to on-board you. These information include:  your name, email address, 
+                            mobile phone number and card details. Subsequently, we may require you to provide additional 
+                            personal details as you use our services.
                         </span>
                     </p>
                     <p class="sub-policy-block-texts">
@@ -39,10 +39,10 @@
                             <span>2.2</span> Transaction information:
                         </b>
                         <span>
-                            When you use our digital platform to send and receive money, on board agents, pay bills, and 
-                            deposit & withdraw cash, we collect information associated with the transaction such as amount sent 
-                            or received, amount paid for products or services, agent information, sometimes, including information 
-                            about your device and location.
+                            When you use our digital platform to send and receive money, on board agents, pay bills, and deposit & 
+                            withdraw cash, we collect information associated with the transaction such as amount sent or received, 
+                            amount paid for products or services, agent information, sometimes, including information about your 
+                            device and location.
                         </span>
                     </p>
                     <p class="sub-policy-block-texts">
@@ -61,9 +61,9 @@
                             Information from other sources:
                         </b>
                         <span>
-                            We may collect information from other sources, such as our social media platforms when you reach out to 
-                            us to lodge a complaint about our services. However, we will only ask for information required to help 
-                            us be of service to you.
+                            We may collect information from other sources, such as our social media platforms when you reach 
+                            out to us to lodge a complaint about our services. However, we will only ask for information 
+                            required to help us be of service to you.
                         </span>
                     </p>
                     <p class="sub-policy-block-texts">
@@ -71,8 +71,8 @@
                             <span>2.5</span> Other information we collect related to your use of our website or Services:
                         </b>
                         <span>
-                            We may collect additional information from or about you when you communicate with us, contact our customer 
-                            support teams or respond to a survey.
+                             We may collect additional information from or about you when you communicate with us, contact 
+                             our customer support teams or respond to a survey.
                         </span>
                     </p>
                 </div>
@@ -82,10 +82,10 @@
                         <span>How Do We Retain Personal Data?</span>
                     </h4>
                     <p class="policy-block-texts">
-                        We retain Personal Data in a recognizable format for business purposes and also to fulfil our 
-                        legal or regulatory obligations. There are situations when we may retain Personal Data for longer 
-                        periods if it is in our legitimate business interests and to comply with applicable laws. We will 
-                        however use and disclose such Personal Data in accordance with this Privacy Policy. 
+                        We retain Personal Data in a recognizable format for business purposes and also to fulfil our legal or 
+                        regulatory obligations. There are situations when we may retain Personal Data for longer periods if it 
+                        is in our legitimate business interests and to comply with applicable laws. We will however use and 
+                        disclose such Personal Data in accordance with this Privacy Policy.
                     </p>
                 </div>
                 <div class="policy-block">
@@ -94,8 +94,8 @@
                         <span>What do we do with your Personal Data?</span>
                     </h4>
                     <p class="policy-block-texts">
-                        Your personal data is collected to provide you with a quick and secure customer experience. We 
-                        process your information to provide a seamless service, including and not limited to:
+                        Your personal data is collected to provide you with a quick and secure customer experience. 
+                        We process your information to provide a seamless service, including and not limited to:
                     </p>
                     <ul class="policy-list">
                         <li>Making transactions - send or request money, or pay a bill</li>
@@ -111,11 +111,13 @@
                     </ul>
                     <p class="sub-policy-block-texts">
                         <b class="sub-policy-title">With your consent:</b>
-                        <span>
-                            Market Payrail Agency products and services to you. Use cookies to provide a targeted display, 
-                            feature, service or offer to you. Send communications about the product to you by SMS or email 
-                            if you have opted in to receive them.
-                        </span> <br />
+                        <ul class="policy-list">
+                            <li>Market Payrail Agency products and services to you.</li>
+                            <li>Use cookies to provide a targeted display, feature, service or offer to you.</li>
+                            <li>
+                                Send communications about the product to you by SMS or email if you have opted in to receive them.
+                            </li>
+                        </ul>
                         <i>Moving forward, you can withdraw your consent at any time you so desire and at no cost whatsoever.</i>
                     </p>
                 </div>
@@ -129,7 +131,7 @@
                     </p>
                     <p class="sub-policy-block-texts">
                         <b class="sub-policy-title">
-                            <span>5.1 </span> With other brands who provide services to us:
+                            <span>5.1 </span> With other brands who provide services to us
                         </b>
                         <span>
                             Payrail Agency may share Personal Data with third-party service providers that perform services and 
@@ -145,7 +147,7 @@
                             We may share Personal Data with some other financial institutions who have partnered with us to enable 
                             ease of services, We may also share Personal Data to process transactions and keep your financial 
                             information up to date.
-                        </span>
+                        </span> 
                     </p>
                     <p class="sub-policy-block-texts">
                         <b class="sub-policy-title">
@@ -163,24 +165,24 @@
                             <span>5.4</span> With other third parties for our business purposes or as permitted or required by law:
                         </b>
                         <span>
-                            We may share information about you with other parties for Payrail Agency’s business purposes or as permitted or 
-                            required by law, including:
+                            We may share information about you with other parties for Payrail Agency’s business purposes or as 
+                            permitted or required by law, including:
                         </span>
                     </p>
                     <p class="sub-policy-block-texts">
                         <b class="sub-policy-title">
-                            <span>5.5</span> If we need to do so to comply with a law, legal process or regulations:
+                            <span>5.4.1</span> If we need to do so to comply with a law, legal process or regulations:
                         </b>
                         <span>
                             To law enforcement authorities or other government officials, or other third parties pursuant to a court order 
-                            or other legal process or requirement applicable to Payrail Agency or Payrail Agency’s corporate family; If we 
-                            believe, in our sole discretion, that the disclosure of Personal Data is necessary or appropriate to prevent 
+                            or other legal process or requirement applicable to Payrail Agency or Payrail Agency’s corporate family; <br /> 
+                            If we believe, in our sole discretion, that the disclosure of Personal Data is necessary or appropriate to prevent 
                             physical harm or financial loss or in connection with an investigation of suspected or actual illegal activity;
                         </span>
                     </p>
                     <p class="sub-policy-block-texts">
                         <b class="sub-policy-title">
-                            <span>5.6</span> To protect the vital interests of a person:
+                            <span>5.4.2</span> To protect the vital interests of a person:
                         </b>
                         <span>
                             With credit agencies and data processors for credit reference checks and anti-fraud and compliance purposes;
@@ -195,7 +197,7 @@
                     <p class="sub-policy-block-texts">
                         <b class="sub-policy-title">With your consent:</b>
                         <span>
-                            We also will share your Personal Data and other information with your consent or direction.
+                            With your consent: We also will share your Personal Data and other information with your consent or direction.
                         </span>
                     </p>
                 </div>
@@ -205,8 +207,8 @@
                         <span>How We Use Cookies</span>
                     </h4>
                     <p class="policy-block-texts">
-                        The purpose of the computer cookie is to help the website keep track of your visits and activity. 
-                        A website might also use cookies to keep a record of your most recent visit or to record your login information. 
+                        The purpose of the computer cookie is to help the website keep track of your visits and activity. A website 
+                        might also use cookies to keep a record of your most recent visit or to record your login information. 
                         Like most active websites, our website uses cookies to enable the tracking of your activity for the duration 
                         of a session, using only encrypted session cookies which are erased either after a predefined timeout period 
                         or once the user logs out of the platform and closes the browser. In essence, certain aspects of our website 
@@ -227,11 +229,11 @@
                             <span>7.1 </span> Request of Access
                         </b>
                         <span>
-                            You have the right to ask us whether we hold any Personal Data relating to you and, if we do, 
-                            to be provided with a copy of that Personal Data in electronic form, unless you want to receive 
-                            it in another way (for example, a paper copy). In addition, you can ask us for information on 
-                            how we use your Personal Data, who we share it with, how long we keep it, where it is stored, and 
-                            other information to help you understand how we use it.
+                            You have the right to ask us whether we hold any Personal Data relating to you and, if we do, to be 
+                            provided with a copy of that Personal Data in electronic form, unless you want to receive it in 
+                            another way (for example, a paper copy). In addition, you can ask us for information on how we use 
+                            your Personal Data, who we share it with, how long we keep it, where it is stored, and other information 
+                            to help you understand how we use it.
                         </span>
                     </p>
                     <p class="sub-policy-block-texts">
@@ -239,10 +241,10 @@
                             <span>7.2</span> Rectification Request
                         </b>
                         <span>
-                            You have the right to ask us to correct your Personal Data (including by means of providing a 
-                            supplementary statement) if it is inaccurate and to have incomplete Personal Data updated without undue 
-                            delay. If we cannot correct the Personal Data, we include a note on our files regarding your request to 
-                            correct your Personal Data.
+                            You have the right to ask us to correct your Personal Data (including by means of providing a supplementary 
+                            statement) if it is inaccurate and to have incomplete Personal Data updated without undue delay. If we 
+                            cannot correct the Personal Data, we include a note on our files regarding your request to correct your 
+                            Personal Data.
                         </span>
                     </p>
                     <p class="sub-policy-block-texts">
@@ -283,14 +285,14 @@
                             <span>7.4</span> Requests to Object
                         </b>
                         <span>
-                            You have the right to object at any time to the processing of your Personal Data if we process it based on 
-                            our legitimate interests. This includes any so-called “profiling”. Our privacy notice informs you when we 
-                            rely on legitimate interests to process your Personal Data. In these cases, we will stop processing your 
-                            Personal Data unless we can demonstrate compelling legitimate reasons for continuing the processing. 
-                            We may reject your request if the processing of your Personal Data is needed to establish, exercise or 
-                            defend legal claims. You have the right to object at any time if we process your Personal Data for direct 
-                            marketing purposes. You may also object at any time to profiling supporting our direct marketing. In 
-                            such cases, we will stop processing your Personal Data when we receive your objection.
+                            You have the right to object at any time to the processing of your Personal Data if we process it based on our 
+                            legitimate interests. This includes any so-called “profiling”. Our privacy notice informs you when we rely on 
+                            legitimate interests to process your Personal Data. In these cases, we will stop processing your Personal Data 
+                            unless we can demonstrate compelling legitimate reasons for continuing the processing. We may reject your request 
+                            if the processing of your Personal Data is needed to establish, exercise or defend legal claims. You have the right 
+                            to object at any time if we process your Personal Data for direct marketing purposes. You may also object at any time 
+                            to profiling supporting our direct marketing. In such cases, we will stop processing your Personal Data when we 
+                            receive your objection.
                         </span>
                     </p>
                     <p class="sub-policy-block-texts">
@@ -329,12 +331,13 @@
                             <span>7.6</span> Requests for Portability
                         </b>
                         <span>
-                            If our processing is performed by computer and is necessary to fulfil a contract with you, or is based on your consent, 
-                            you have the right to receive any Personal Data you have provided to us in a structured, commonly used and 
-                            machine-readable electronic format. You can also send your Personal Data to another organization or have us do so for 
-                            you if it is technically feasible for us to do so. If your request relates to a set of Personal Data that also concerns 
-                            other individuals, we will remove those individuals in order to exercise their own rights regarding their Personal Data. 
-                            Eventually even if you request the portability of your Personal Data, you retain your right to also request their erasure.
+                            If our processing is performed by computer and is necessary to fulfil a contract with you, or is based on your 
+                            consent, you have the right to receive any Personal Data you have provided to us in a structured, commonly used and 
+                            machine-readable electronic format. You can also send your Personal Data to another organization or have us do so 
+                            for you if it is technically feasible for us to do so. If your request relates to a set of Personal Data that also 
+                            concerns other individuals, we will remove those individuals in order to exercise their own rights regarding their 
+                            Personal Data. Eventually even if you request the portability of your Personal Data, you retain your right to also 
+                            request their erasure.
                         </span>
                     </p>
                     <p class="sub-policy-block-texts">
@@ -343,8 +346,8 @@
                         </b>
                         <span>
                             Generally, you have the right to object to any decision producing a legal effect concerning you or which otherwise 
-                            significantly affects you if this is based solely on the automated processing of your Personal Data. This includes automated 
-                            decisions based on profiling.
+                            significantly affects you if this is based solely on the automated processing of your Personal Data. This includes 
+                            automated decisions based on profiling.
                         </span>
                     </p>
                     <p class="sub-policy-block-texts">
@@ -358,9 +361,9 @@
                     </ul>
                     <p class="sub-policy-block-texts">
                         <span>
-                            We will only make decisions relying solely on automated processing that involve your sensitive Personal Data if you have 
-                            given your explicit consent or the processing is necessary for reasons of substantial public interest, based on the 
-                            NDPR and relevant laws.
+                            We will only make decisions relying solely on automated processing that involve your sensitive Personal Data if you 
+                            have given your explicit consent or the processing is necessary for reasons of substantial public interest, based 
+                            on the NDPR and relevant laws.
                         </span>
                     </p>
                 </div>
@@ -370,16 +373,15 @@
                         <span>How Do We Protect Your Personal Data?</span>
                     </h4>
                     <p class="policy-block-texts">
-                        While we are dedicated to securing our systems and services, you are responsible for securing and maintaining 
-                        the privacy of your password(s) and account/profile registration information and verifying that the Personal 
-                        Data we maintain about you is accurate and current.
+                        While we are dedicated to securing our systems and services, you are responsible for securing and maintaining the privacy 
+                        of your password(s) and account/profile registration information and verifying that the Personal Data we maintain about 
+                        you is accurate and current.
                     </p>
                     <p class="policy-block-texts">
                         We will however maintain technical, physical, and administrative security measures designed to provide reasonable 
-                        protection for your Personal Data against loss, misuse, unauthorised access, disclosure, and alteration. The 
-                        security measures include firewalls, data encryption, physical access controls to our premises, quality control 
-                        as well as information access authorisation controls. We will inform you of any breaches which may affect your 
-                        Personal Data.
+                        protection for your Personal Data against loss, misuse, unauthorised access, disclosure, and alteration. The security 
+                        measures include firewalls, data encryption, physical access controls to our premises, quality control as well as 
+                        information access authorisation controls. We will inform you of any breaches which may affect your Personal Data.
                     </p>
                 </div>
                 <div class="policy-block">
@@ -388,9 +390,9 @@
                         <span>Remedies for Violation and Timeframe for Remedy</span>
                     </h4>
                     <p class="policy-block-texts">
-                        If this policy is violated, our Data Protection Officer shall redress the violation within a week. Where the 
-                        violation pertains to the disclosure of your Personal Data without your consent, such information shall be 
-                        retracted immediately, and confirmation of the retraction sent to you within 48 hours of the redress.
+                        If this policy is violated, our Data Protection Officer shall redress the violation within a week. Where the violation 
+                        pertains to the disclosure of your Personal Data without your consent, such information shall be retracted immediately, 
+                        and confirmation of the retraction sent to you within 48 hours of the redress.
                     </p>
                 </div>
                 <div class="policy-block">
@@ -399,8 +401,8 @@
                         <span>Governing Laws</span>
                     </h4>
                     <p class="policy-block-texts">
-                        This Privacy Policy is made according to the Nigeria Data Protection Regulation (2019) or any other relevant 
-                        Nigerian laws, regulations or international conventions applicable to Nigeria.
+                        This Privacy Policy is made according to the Nigeria Data Protection Regulation (2019) or any other relevant Nigerian 
+                        laws, regulations or international conventions applicable to Nigeria.
                     </p>
                 </div>
                 <div class="policy-block">
@@ -409,9 +411,9 @@
                         <span>Privacy Policy review</span>
                     </h4>
                     <p class="policy-block-texts">
-                        We review this privacy policy periodically when there is any change to services or regulatory requirements. At 
-                        the minimum, we shall review this annually and communicate via our communication platforms such as Website, 
-                        Social Media Accounts or via the information channels on our app.
+                        We review this privacy policy periodically when there is any change to services or regulatory requirements. At the 
+                        minimum, we shall review this annually and communicate via our communication platforms such as Website, Social Media 
+                        Accounts or via the information channels on our app.
                     </p>
                 </div>
                 <div class="policy-block">
@@ -420,8 +422,8 @@
                         <span>Contact Us</span>
                     </h4>
                     <p class="policy-block-texts">
-                        For any general inquiries or concerns about this Privacy Policy or the way in which your Personal Data is used 
-                        or retained, please contact us for more clarifications:
+                        For any general inquiries or concerns about this Privacy Policy or the way in which your Personal Data is used or 
+                        retained, please contact us for more clarifications:
                     </p>
                     <p class="policy-block-texts pb-contact">
                         <b>PAYRAIL AGENCY LIMITED</b> <br />
