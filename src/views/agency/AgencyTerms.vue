@@ -105,9 +105,8 @@
                         <span>GOVERNING LAW & JURISDICTION</span>
                     </h4>
                     <p class="policy-block-texts">
-                        These Terms will be governed by and construed in accordance with the laws of the State of [ State], and you 
-                        submit to the non-exclusive jurisdiction of the state and federal courts located in [State] for the resolution 
-                        of any disputes.
+                        These Terms will be governed by and construed in accordance with the laws of the Federal Republic of Nigeria, 
+                        and you submit to the exclusive jurisdiction of the courts within Nigeria for the resolution of any disputes.
                     </p>
                 </div>
             </section>

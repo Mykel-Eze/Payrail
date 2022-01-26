@@ -427,7 +427,7 @@
                         <b>PAYRAIL AGENCY LIMITED</b> <br />
                         <span>Layi Yusuf Cresent, Lekki Phase 1, Lagos, Nigeria.</span> <br />
                         <span>
-                            Email: <a href="mailto:payrailagency@support.com" class="pry-color">Payrailagency@support.com</a>
+                            Email: <a href="mailto:support@payrail.com" class="pry-color">Support@payrail.com</a>
                         </span>
                     </p>
                 </div>
