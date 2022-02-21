@@ -132,17 +132,23 @@
                                 </span>
                             </li>
                             <li class="footer-appstore-wrapper agency-stuff">
-                                <button class="app-store hover-scale">
-                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/google-playstore-yellow.svg" alt="google store" />
-                                </button>
+                                <a href="https://play.google.com/store/apps/details?id=com.angala.payrail" target="_blank" rel="noopener noreferrer">
+                                    <button class="app-store hover-scale">
+                                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/google-playstore-yellow.svg" alt="google store" />
+                                    </button>
+                                </a>
 
-                                <button class="app-store hover-scale">
-                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/apple-appstore-yellow.svg" alt="apple store" />
-                                </button>
+                                <a href="https://apps.apple.com/ng/app/payrail-agency/id1588794187" target="_blank" rel="noopener noreferrer">
+                                    <button class="app-store hover-scale">
+                                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/apple-appstore-yellow.svg" alt="apple store" />
+                                    </button>
+                                </a>
 
-                                <button class="app-store hover-scale">
-                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/browser-yellow.svg" alt="web browser" />
-                                </button>
+                                <a href="#">
+                                    <button class="app-store hover-scale">
+                                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/browser-yellow.svg" alt="web browser" />
+                                    </button>
+                                </a>
                             </li>
                         </ul>
                     </div>
