@@ -13,14 +13,18 @@
                         </p>
                         <div class="app-stores-wrapper hidden-xs-sm">
                             <div class="unknown-device">
-                                <button class="app-store google-store hover-scale">
-                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/google-playstore.svg" alt="google store" />
-                                </button>
+                                <a href="https://play.google.com/store/apps/details?id=com.angala.payrail" target="_blank" rel="noopener noreferrer">
+                                    <button class="app-store google-store hover-scale">
+                                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/google-playstore.svg" alt="google store" />
+                                    </button>
+                                </a>
                             </div>
                             <div class="unknown-device">
-                                <button class="app-store apple-store hover-scale">
-                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/apple-appstore.svg" alt="apple store" />
-                                </button>
+                                <a href="https://apps.apple.com/ng/app/payrail-agency/id1588794187" target="_blank" rel="noopener noreferrer">
+                                    <button class="app-store apple-store hover-scale">
+                                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/apple-appstore.svg" alt="apple store" />
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -208,9 +212,11 @@
                             Agricultural machinery, Household items, Mobile phones, Water pumps</span>, and so on! 
                         </p>
                         <div class="get-started-btn-wrapper">
-                            <button class="nav-pry-btn black-bg btn pointer get-started-btn">
-                                Get Started →
-                            </button>
+                            <a href="#join-payrail">
+                                <button class="nav-pry-btn black-bg btn pointer get-started-btn">
+                                    Get Started →
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -466,7 +472,7 @@
         <!--==== end of Debit Card ====-->
 
         <!--==== Join-Section ====-->
-        <section id="join-payrail">
+        <section id="join-payrail" class="scrollspy">
             <div class="row">
                 <div class="container">
                     <div class="black-bg black-wrapper">
@@ -474,14 +480,18 @@
                             <h4 class="sect-title white-txt">Sign up for free. <br /> Join the Payrail Network</h4> 
                             <div class="app-stores-wrapper flex-div">
                                 <div class="">
-                                    <button class="app-store google-store hover-scale">
-                                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/google-playstore.svg" alt="google store" />
-                                    </button>
+                                    <a href="https://play.google.com/store/apps/details?id=com.angala.payrail" target="_blank" rel="noopener noreferrer">
+                                        <button class="app-store google-store hover-scale">
+                                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/google-playstore.svg" alt="google store" />
+                                        </button>
+                                    </a>
                                 </div>
                                 <div class="">
-                                    <button class="app-store apple-store hover-scale">
-                                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/apple-appstore.svg" alt="apple store" />
-                                    </button>
+                                    <a href="https://apps.apple.com/ng/app/payrail-agency/id1588794187" target="_blank" rel="noopener noreferrer">
+                                        <button class="app-store apple-store hover-scale">
+                                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/apple-appstore.svg" alt="apple store" />
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                             <div class="box-txt">
@@ -514,8 +524,8 @@
                 M.Carousel.getInstance(elemsCarousel).next()
             }, 8000)
 
-            // var elemScrollspy = document.querySelectorAll('.scrollspy');
-            // M.Scrollspy.init(elemScrollspy);
+            var elemScrollspy = document.querySelectorAll('.scrollspy');
+            M.ScrollSpy.init(elemScrollspy);
 
             const img = document.querySelector(".pci-img");
             document.body.classList.add("js-loading");

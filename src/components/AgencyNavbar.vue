@@ -68,11 +68,13 @@
                             </div>
                         </li>
                         <li>
-                            <button class="nav-pry-btn black-bg btn pointer">
-                                Get the App 
-                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-chevron.svg" alt="right-chevron" class="n-img-1 right-chevron" />
-                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-chevron-black.svg" alt="right-chevron" class="n-img-2 right-chevron" />
-                            </button>
+                            <a href="/agency#join-payrail">
+                                <button class="nav-pry-btn black-bg btn pointer">
+                                    Get the App 
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-chevron.svg" alt="right-chevron" class="n-img-1 right-chevron" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-chevron-black.svg" alt="right-chevron" class="n-img-2 right-chevron" />
+                                </button>
+                            </a>
                         </li>
                     </ul>
                     <ul class="right dn-mobile ul-nav">
