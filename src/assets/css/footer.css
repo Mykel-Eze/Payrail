@@ -272,6 +272,9 @@ img.payrail-anagala {
         box-sizing: border-box;
         border-radius: 28.5px;
     }
+    .theme-light form#subscribe-form .flex-div.input-field {
+        background-color: #ffffff;
+    }
     input#subscriber-email {
         border: none;
         background-color: transparent !important;

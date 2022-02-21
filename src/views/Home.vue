@@ -4,32 +4,32 @@
       <ul class="scroll-wheel wheel-item menu" id="menu-wheel">
         <li data-menuanchor="urban" class="scrolled-point urban-point">
           <a href="/urban" onmouseenter="window.location.href='/#urban'">
-            <img src="../assets/images/urban-disabled.svg" alt="urban-icon" class="disabled-icon">
-            <img src="../assets/images/urban-active.svg" alt="urban-icon" class="active-icon">
+            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/urban-disabled.svg" alt="urban-icon" class="disabled-icon">
+            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/urban-active.svg" alt="urban-icon" class="active-icon">
           </a>
         </li>
         <li data-menuanchor="agency" class="scrolled-point agency-point">
           <a href="/agency" onmouseenter="window.location.href='/#agency'">
-            <img src="../assets/images/agency-disabled.svg" alt="agency-icon" class="disabled-icon">
-            <img src="../assets/images/agency-active.svg" alt="agency-icon" class="active-icon">
+            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/agency-disabled.svg" alt="agency-icon" class="disabled-icon">
+            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/agency-active.svg" alt="agency-icon" class="active-icon">
           </a>
         </li>
         <li data-menuanchor="business" class="scrolled-point business-point">
           <a href="/business" onmouseenter="window.location.href='/#business'">
-            <img src="../assets/images/business-disabled.svg" alt="business-icon" class="disabled-icon">
-            <img src="../assets/images/business-active.svg" alt="business-icon" class="active-icon">
+            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/business-disabled.svg" alt="business-icon" class="disabled-icon">
+            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/business-active.svg" alt="business-icon" class="active-icon">
           </a>
         </li>
-        <img data-menuanchor="urban" src="../assets/images/urban-circle.svg" alt="scroll-circle" class="scroll-wheel-circle urban-circle">
-        <img data-menuanchor="agency" src="../assets/images/agency-circle.svg" alt="scroll-circle" class="scroll-wheel-circle agency-circle">
-        <img data-menuanchor="business" src="../assets/images/business-circle.svg" alt="scroll-circle" class="scroll-wheel-circle business-circle">
-        <!-- <img src="../assets/images/wheel-ring-2.svg" alt="scroll-circle" class="scroll-wheel-ring"> -->
+        <img data-menuanchor="urban" src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/urban-circle.svg" alt="scroll-circle" class="scroll-wheel-circle urban-circle">
+        <img data-menuanchor="agency" src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/agency-circle.svg" alt="scroll-circle" class="scroll-wheel-circle agency-circle">
+        <img data-menuanchor="business" src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/business-circle.svg" alt="scroll-circle" class="scroll-wheel-circle business-circle">
+        <!-- <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/wheel-ring-2.svg" alt="scroll-circle" class="scroll-wheel-ring"> -->
       </ul>
       <div class="outer-dotted-wheel wheel-item">
-        <img src="../assets/images/wheel-ring.png" alt="ring">
+        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/wheel-ring.png" alt="ring">
       </div>
       <div class="inner-dotted-wheel wheel-item">
-        <img src="../assets/images/wheel-ring.png" alt="ring">
+        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/wheel-ring.png" alt="ring">
       </div>
       <div class="wheel-shadow wheel-item"></div>
       <div class="inner-wheel-shadow wheel-item"></div>
@@ -101,16 +101,16 @@
           <div class="container">
             <div class="flex-div justify-content-btw">
               <router-link to="/#" class="section-logo-link">
-                <img src="../assets/images/urban-white.svg" alt="payrail urban" class="section-logo">
+                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/urban-white.svg" alt="payrail urban" class="section-logo">
               </router-link>
               <div class="sound-and-signin flex-div">
                 <button class="audio-trigger">
-                  <img src="../assets/images/audio-icon-black.svg" alt="audio icon" class="audio-icon">
-                  <img src="../assets/images/mute-2.svg" alt="muted audio icon" class="audio-icon muted-icon">
+                  <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/audio-icon-black.svg" alt="audio icon" class="audio-icon">
+                  <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/mute-2.svg" alt="muted audio icon" class="audio-icon muted-icon">
                 </button>
                 <router-link to="/#" class="flex-div">
                   <span>Sign in</span>
-                  <img src="../assets/images/right-arr-white.svg" alt="right arrow" class="right-arr">
+                  <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-arr-white.svg" alt="right arrow" class="right-arr">
                 </router-link>
               </div>
             </div>
@@ -119,7 +119,7 @@
 
         <div class="scroll-line flex-div">
           <span>Scroll</span>
-          <img src="../assets/images/line.svg" alt="line">
+          <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/line.svg" alt="line">
         </div>
 
         <section class="home-footer">
@@ -143,16 +143,16 @@
           <div class="container">
             <div class="flex-div justify-content-btw">
               <router-link to="/#" class="section-logo-link">
-                <img src="../assets/images/agency-white.svg" alt="payrail agency" class="section-logo">
+                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/agency-white.svg" alt="payrail agency" class="section-logo">
               </router-link>
               <div class="sound-and-signin flex-div">
                 <button class="audio-trigger">
-                  <img src="../assets/images/audio-icon-black.svg" alt="audio icon" class="audio-icon">
-                  <img src="../assets/images/mute-2.svg" alt="muted audio icon" class="audio-icon muted-icon">
+                  <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/audio-icon-black.svg" alt="audio icon" class="audio-icon">
+                  <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/mute-2.svg" alt="muted audio icon" class="audio-icon muted-icon">
                 </button>
                 <router-link to="/#" class="flex-div">
                   <span>Sign in</span>
-                  <img src="../assets/images/right-arr-white.svg" alt="right arrow" class="right-arr">
+                  <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-arr-white.svg" alt="right arrow" class="right-arr">
                 </router-link>
               </div>
             </div>
@@ -161,7 +161,7 @@
 
         <div class="scroll-line flex-div">
           <span>Scroll</span>
-          <img src="../assets/images/line.svg" alt="line">
+          <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/line.svg" alt="line">
         </div>
 
         <section class="home-footer">
@@ -185,16 +185,16 @@
           <div class="container">
             <div class="flex-div justify-content-btw">
               <router-link to="/#" class="section-logo-link">
-                <img src="../assets/images/business-white.svg" alt="payrail business" class="section-logo">
+                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/business-white.svg" alt="payrail business" class="section-logo">
               </router-link>
               <div class="sound-and-signin flex-div">
                 <button class="audio-trigger">
-                  <img src="../assets/images/audio-icon-black.svg" alt="audio icon" class="audio-icon">
-                  <img src="../assets/images/mute-2.svg" alt="muted audio icon" class="audio-icon muted-icon">
+                  <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/audio-icon-black.svg" alt="audio icon" class="audio-icon">
+                  <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/mute-2.svg" alt="muted audio icon" class="audio-icon muted-icon">
                 </button>
                 <router-link to="/#" class="flex-div">
                   <span>Sign in</span>
-                  <img src="../assets/images/right-arr-white.svg" alt="right arrow" class="right-arr">
+                  <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-arr-white.svg" alt="right arrow" class="right-arr">
                 </router-link>
               </div>
             </div>
@@ -203,7 +203,7 @@
 
         <div class="scroll-line flex-div">
           <span>Scroll</span>
-          <img src="../assets/images/line.svg" alt="line">
+          <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/line.svg" alt="line">
         </div>
 
         <section class="home-footer">

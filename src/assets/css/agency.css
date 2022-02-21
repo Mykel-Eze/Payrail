@@ -9,10 +9,10 @@ div#agency-wrapper {
     overflow-x: hidden;
 }
 .theme-dark #agency-contents section#home .home-container {
-    background-image: url(../images/dark-background-logo.png);
+    background-image: url(https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/dark-background-logo.png);
 }
 .theme-light #agency-contents section#home .home-container {
-    background-image: url(../images/light-background-logo.png);
+    background-image: url(https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/light-background-logo.png);
 }
 
 .agency-logo, .agency-download-btn-wrapper {

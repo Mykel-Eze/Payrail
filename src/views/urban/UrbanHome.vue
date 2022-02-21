@@ -30,7 +30,7 @@
 
                                     <button class="btn subscribe-submit pry-bg">
                                         <span class="visible-text-m-l">Get Started</span>
-                                        <!-- {/* <img src="../../assets/images/right-arrow.png" alt="right-arrow" class="hidden-text-m-l" /> */} -->
+                                        <!-- {/* <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-arrow.png" alt="right-arrow" class="hidden-text-m-l" /> */} -->
                                     </button>
                                 </div>
                             </form>
@@ -47,8 +47,8 @@
                     </div>
                     <div class="col s12 m8 offset-m2 l6 offset-l0 rel" id="home-img-side">
                         <!-- <div class="phone-hand-img-div">
-                            <img src="../../assets/images/hand-phone-2a.png" alt="phone and hand" class="phone-hand" />
-                            <img src="../../assets/images/bg-strokes.png" alt="strokes" class="bg-strokes" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/hand-phone-2a.png" alt="phone and hand" class="phone-hand" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/bg-strokes.png" alt="strokes" class="bg-strokes" />
                         </div> -->
                         <div>
                             <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_ftofuutj.json`"
@@ -84,17 +84,17 @@
             <div class="row">
                 <div class="container">
                     <div class="col s12 m10 offset-m1 l6 offset-l3 center hidden-xs-sm pad0-xs rel benefits-img-container">
-                        <img src="../../assets/images/benefits-1.png" alt="benefits-images" class="benefits-img n-img-1" id="benefits-1"  data-aos="fade-right" />
-                        <img src="../../assets/images/benefits-1a.png" alt="benefits-images" class="benefits-img n-img-2" id="benefits-1a"  data-aos="fade-right" />
-                        <img src="../../assets/images/benefits-2.png" alt="benefits-images" class="benefits-img n-img-1" id="benefits-2"  data-aos="fade-left" />
-                        <img src="../../assets/images/benefits-2a.png" alt="benefits-images" class="benefits-img n-img-2" id="benefits-2a"  data-aos="fade-left" />
-                        <img src="../../assets/images/benefits-3.png" alt="benefits-images" class="benefits-img n-img-1" id="benefits-3"  data-aos="fade-up-right" />
-                        <img src="../../assets/images/benefits-3a.png" alt="benefits-images" class="benefits-img n-img-2" id="benefits-3a"  data-aos="fade-up-right" />
-                        <img src="../../assets/images/benefits-4.png" alt="benefits-images" class="benefits-img n-img-1" id="benefits-4"  data-aos="fade-up-left" />
-                        <img src="../../assets/images/benefits-4a.png" alt="benefits-images" class="benefits-img n-img-2" id="benefits-4a"  data-aos="fade-up-left" />
-                        <!-- <img src="../../assets/images/mobile-phone-a.png" alt="phone" class="center-phone"  data-aos="fade-up" /> -->
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/benefits-1.png" alt="benefits-images" class="benefits-img n-img-1" id="benefits-1"  data-aos="fade-right" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/benefits-1a.png" alt="benefits-images" class="benefits-img n-img-2" id="benefits-1a"  data-aos="fade-right" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/benefits-2.png" alt="benefits-images" class="benefits-img n-img-1" id="benefits-2"  data-aos="fade-left" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/benefits-2a.png" alt="benefits-images" class="benefits-img n-img-2" id="benefits-2a"  data-aos="fade-left" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/benefits-3.png" alt="benefits-images" class="benefits-img n-img-1" id="benefits-3"  data-aos="fade-up-right" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/benefits-3a.png" alt="benefits-images" class="benefits-img n-img-2" id="benefits-3a"  data-aos="fade-up-right" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/benefits-4.png" alt="benefits-images" class="benefits-img n-img-1" id="benefits-4"  data-aos="fade-up-left" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/benefits-4a.png" alt="benefits-images" class="benefits-img n-img-2" id="benefits-4a"  data-aos="fade-up-left" />
+                        <!-- <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/mobile-phone-a.png" alt="phone" class="center-phone"  data-aos="fade-up" /> -->
                         <div class="center-phone-div"  data-aos="fade-up">
-                            <img src="../../assets/images/mobile-view.png" alt="phone" class="center-phone" style="opacity: 0 !important" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/mobile-view.png" alt="phone" class="center-phone" style="opacity: 0 !important" />
                             <lottie-vue-player :src="`https://assets10.lottiefiles.com/packages/lf20_q9nenasi.json`"
                                 style="width:100%; height:600px"
                                 :background= "options.backgroundColor"
@@ -130,8 +130,8 @@
                         </div>
                     </div>
                     <div class="col s12 visible-xs-sm pad0-xs benefits-img-container center">
-                        <img src="../../assets/images/benefits-full.png" alt="section-img" class="sect-img n-img-1" data-aos="fade-up" />
-                        <img src="../../assets/images/benefits-full-white.png" alt="section-img" class="sect-img n-img-2" data-aos="fade-up" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/benefits-full.png" alt="section-img" class="sect-img n-img-1" data-aos="fade-up" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/benefits-full-white.png" alt="section-img" class="sect-img n-img-2" data-aos="fade-up" />
                     </div>
                 </div>
             </div>
@@ -159,10 +159,10 @@
                     </div>
                     <div class="col s12 pad0 flex-tab-view">
                         <div class="col s12 l8 hidden-xs-sm">
-                            <img src="../../assets/images/thrift.png" alt="phone and people" class="full-width sect-img" data-aos="fade-up" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/thrift.png" alt="phone and people" class="full-width sect-img" data-aos="fade-up" />
                         </div>
                         <div class="col s12 l8 visible-xs-sm tab-small-img-wrapper">
-                            <img src="../../assets/images/thrift.png" alt="phone and people" class="full-width sect-img" data-aos="fade-up" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/thrift.png" alt="phone and people" class="full-width sect-img" data-aos="fade-up" />
                         </div>
                         <div class="col s12 l4">
                             <div class="sect1-list">
@@ -217,7 +217,7 @@
                         </div>
                     </div>
                     <div class="col s12 l6 tab-small-img-wrapper center">
-                        <img src="../../assets/images/bills-payment.png" alt="phone notification" class="full-width sect-img bills-pay-bg" data-aos="fade-up" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/bills-payment.png" alt="phone notification" class="full-width sect-img bills-pay-bg" data-aos="fade-up" />
                     </div>
                 </div>
             </div>
@@ -229,8 +229,8 @@
             <div class="row">
                 <div class="container">
                     <div class="col s12 l6 tab-small-img-wrapper">
-                        <img src="../../assets/images/lady-with-phone.png" alt="lady-with-phone" class="sect-img n-img-1" data-aos="fade-up" />
-                        <img src="../../assets/images/lady-with-phone-a.png" alt="lady-with-phone" class="sect-img n-img-2" data-aos="fade-up" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/lady-with-phone.png" alt="lady-with-phone" class="sect-img n-img-1" data-aos="fade-up" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/lady-with-phone-a.png" alt="lady-with-phone" class="sect-img n-img-2" data-aos="fade-up" />
                     </div>
                     <div class="col s12 l6 sec-mag-down">
                         <h3 class="sect-title">Maintenance fees are no business of yours</h3>
@@ -240,19 +240,19 @@
                         </p>
                         <ul class="sect-list sec-list-grid">
                             <li>
-                                <img src="../../assets/images/tick-box.svg" alt="tick-box" class="tick-box" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/tick-box.svg" alt="tick-box" class="tick-box" />
                                 <span>No Minimum balance</span>
                             </li>
                             <li>
-                                <img src="../../assets/images/tick-box.svg" alt="tick-box" class="tick-box" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/tick-box.svg" alt="tick-box" class="tick-box" />
                                 <span>No Monthly subscription</span>
                             </li>
                             <li>
-                                <img src="../../assets/images/tick-box.svg" alt="tick-box" class="tick-box" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/tick-box.svg" alt="tick-box" class="tick-box" />
                                 <span>No Transaction fees</span>
                             </li>
                             <li>
-                                <img src="../../assets/images/tick-box.svg" alt="tick-box" class="tick-box" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/tick-box.svg" alt="tick-box" class="tick-box" />
                                 <span>No Account opening fees</span>
                             </li>
                         </ul>
@@ -271,7 +271,7 @@
                         <ul class="sect-list sec-list-grid">
                             <li>
                                 <div class="sect-list-title-div">
-                                    <img src="../../assets/images/check-red.svg" alt="check" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check-red.svg" alt="check" />
                                     <span>Bank-grade Security</span>
                                 </div>
                                 <p class="slb-content text-justify">
@@ -281,7 +281,7 @@
                             </li>
                             <li>
                                 <div class="sect-list-title-div">
-                                    <img src="../../assets/images/check-red.svg" alt="check" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check-red.svg" alt="check" />
                                     <span>Regulatory Compliance</span>
                                 </div>
                                 <p class="slb-content text-justify">
@@ -291,7 +291,7 @@
                             </li>
                             <li>
                                 <div class="sect-list-title-div">
-                                    <img src="../../assets/images/check-red.svg" alt="check" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check-red.svg" alt="check" />
                                     <span>Two-Factor Authentication</span>
                                 </div>
                                 <p class="slb-content text-justify">
@@ -301,7 +301,7 @@
                             </li>
                             <li>
                                 <div class="sect-list-title-div">
-                                    <img src="../../assets/images/check-red.svg" alt="check" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check-red.svg" alt="check" />
                                     <span>Best Insurance Product</span>
                                 </div>
                                 <p class="slb-content text-justify">
@@ -312,8 +312,8 @@
                         </ul>
                     </div>
                     <div class="col s12 l4 safe-img-wrapper tab-small-img-wrapper">
-                        <img src="../../assets/images/safe-img.png" alt="safe-img" class="sect-img n-img-1" data-aos="fade-up" />
-                        <img src="../../assets/images/safe-img-2.png" alt="safe-img" class="sect-img n-img-2" data-aos="fade-up" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/safe-img.png" alt="safe-img" class="sect-img n-img-1" data-aos="fade-up" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/safe-img-2.png" alt="safe-img" class="sect-img n-img-2" data-aos="fade-up" />
                     </div>
                 </div>
             </div>
@@ -326,7 +326,7 @@
                 <div class="container">
                     <div class="col s12 m10 offset-m1 pad0">
                         <div class="col s12 m6 hidden-xs">
-                            <img src="../../assets/images/urban-card-hand2.png" alt="payrail debit card" class="full-width payrail-card-hand" data-aos="fade-up" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/urban-card-hand2.png" alt="payrail debit card" class="full-width payrail-card-hand" data-aos="fade-up" />
                         </div>
                         <div class="col s12 m6">
                             <div class="debit-cards-txt-div">
@@ -337,7 +337,7 @@
                             </div>
                         </div>
                         <div class="col s12 m6 visible-xs">
-                            <img src="../../assets/images/urban-card-hand2.png" alt="payrail debit card" class="full-width payrail-card-hand" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/urban-card-hand2.png" alt="payrail debit card" class="full-width payrail-card-hand" />
                         </div>
                     </div>
                 </div>
@@ -360,12 +360,12 @@
                                 <div class="app-stores-wrapper flex-div">
                                     <div class="">
                                         <button class="app-store google-store hover-scale">
-                                            <img src="../../assets/images/playstore-red.svg" alt="google store" />
+                                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/playstore-red.svg" alt="google store" />
                                         </button>
                                     </div>
                                     <div class="">
                                         <button class="app-store apple-store hover-scale">
-                                            <img src="../../assets/images/appstore-red.svg" alt="apple store" />
+                                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/appstore-red.svg" alt="apple store" />
                                         </button>
                                     </div>
                                 </div>

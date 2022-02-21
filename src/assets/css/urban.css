@@ -62,7 +62,7 @@ div#urban-wrapper {
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../images/bg-strokes.png);
+    background-image: url(https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/bg-strokes.png);
 } */
 
 #urban-contents .phone-hand-img-div {
@@ -71,7 +71,7 @@ div#urban-wrapper {
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../images/bg-strokes.png); */
+    background-image: url(https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/bg-strokes.png); */
 }
 .bg-strokes {
     position: absolute;
@@ -102,7 +102,7 @@ div#urban-wrapper {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url(../images/animated-bg-pattern.gif);
+    background-image: url(https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/animated-bg-pattern.gif);
     /* background-size: 50%; */
     background-repeat: repeat;
     opacity: 0.05;
@@ -209,7 +209,7 @@ h4.slb-title {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url(../images/animated-bg-pattern.gif);
+    background-image: url(https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/animated-bg-pattern.gif);
     /* background-size: 50%; */
     background-repeat: repeat;
     opacity: 0.12;
@@ -386,7 +386,7 @@ ul.sect-list > li .sect-list-title-div img {
         height: 56px;
         border-radius: 50%;
         min-width: auto;
-        background-image: url(../images/right-arrow.png);
+        background-image: url(https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-arrow.png);
         background-size: 50%;
         background-position: center;
         background-repeat: no-repeat;

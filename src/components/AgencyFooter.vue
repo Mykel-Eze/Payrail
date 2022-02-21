@@ -106,19 +106,19 @@
                             </li>
                             <li class="agency-stuff">
                                 <a href="https://twitter.com/" target="_blank" rel="noreferrer" class="social-link">
-                                    <img src="../assets/images/twitter-yellow.svg" alt="twitter" class="hover-scale" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/twitter-yellow.svg" alt="twitter" class="hover-scale" />
                                 </a>
                                 <a href="https://whatsapp.com/" target="_blank" rel="noreferrer" class="social-link">
-                                    <img src="../assets/images/whatsapp-yellow.svg" alt="whatsapp" class="hover-scale" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/whatsapp-yellow.svg" alt="whatsapp" class="hover-scale" />
                                 </a>
                                 <a href="https://facebook.com/" target="_blank" rel="noreferrer" class="social-link">
-                                    <img src="../assets/images/facebook-yellow.svg" alt="facebook" class="hover-scale" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/facebook-yellow.svg" alt="facebook" class="hover-scale" />
                                 </a>
                                 <a href="https://linkedin.com/company/" target="_blank" rel="noreferrer" class="social-link">
-                                    <img src="../assets/images/linkedin-yellow.svg" alt="linkedin" class="hover-scale" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/linkedin-yellow.svg" alt="linkedin" class="hover-scale" />
                                 </a>
                                 <a href="https://instagram.com/payrail_agency" target="_blank" rel="noreferrer" class="social-link">
-                                    <img src="../assets/images/instagram-yellow.svg" alt="instagram" class="hover-scale" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/instagram-yellow.svg" alt="instagram" class="hover-scale" />
                                 </a>
                             </li>
                         </ul>
@@ -133,15 +133,15 @@
                             </li>
                             <li class="footer-appstore-wrapper agency-stuff">
                                 <button class="app-store hover-scale">
-                                    <img src="../assets/images/google-playstore-yellow.svg" alt="google store" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/google-playstore-yellow.svg" alt="google store" />
                                 </button>
 
                                 <button class="app-store hover-scale">
-                                    <img src="../assets/images/apple-appstore-yellow.svg" alt="apple store" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/apple-appstore-yellow.svg" alt="apple store" />
                                 </button>
 
                                 <button class="app-store hover-scale">
-                                    <img src="../assets/images/browser-yellow.svg" alt="web browser" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/browser-yellow.svg" alt="web browser" />
                                 </button>
                             </li>
                         </ul>
@@ -149,21 +149,21 @@
                 </div>
                 <div class="col s12 pad0-xs footer-hr-div">
                     <hr />
-                    <img src="../assets/images/payrail-angala.png" alt="Payrail and Angala" class="payrail-anagala n-img-1" />
-                    <img src="../assets/images/payrail-angala-light.png" alt="Payrail and Angala" class="payrail-anagala n-img-2" />
+                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/payrail-angala.png" alt="Payrail and Angala" class="payrail-anagala n-img-1" />
+                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/payrail-angala-light.png" alt="Payrail and Angala" class="payrail-anagala n-img-2" />
                     <hr />
                 </div>
                 <div class="regulators-section col pad0-xs s12">
                     <div class="flex-div regulator-subscribe-wrapper">
                         <div class="regulators-wrapper">
                             <a href="http://" class="hover-scale" target="_blank" rel="noopener noreferrer">
-                                <img src="../assets/images/sec.png" alt="sec" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/sec.png" alt="sec" />
                             </a>
                             <a href="http://" class="hover-scale" target="_blank" rel="noopener noreferrer">
-                                <img src="../assets/images/cbn.png" alt="cbn" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/cbn.png" alt="cbn" />
                             </a>
                             <a href="http://" class="hover-scale last-regulator" target="_blank" rel="noopener noreferrer">
-                                <img src="../assets/images/ndic.png" alt="ndic" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/ndic.png" alt="ndic" />
                             </a>
                         </div>
                     </div>

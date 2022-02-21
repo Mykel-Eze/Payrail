@@ -4,8 +4,8 @@
             <div class="container">
                 <div class="nav-wrapper">
                     <router-link to="/" class="brand-logo" @click="scrollToTop()">
-                        <img src="../assets/images/payrail-agency-logo-white-2.png" alt="Payrail Agency" class="logo n-img-2" />
-                        <img src="../assets/images/payrail-agency-logo-black.svg" alt="Payrail Agency" class="logo n-img-1" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/payrail-agency-logo-white-2.png" alt="Payrail Agency" class="logo n-img-2" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/payrail-agency-logo-black.svg" alt="Payrail Agency" class="logo n-img-1" />
                     </router-link>
 
                     <ul id="nav-mobile" class="hide-on-med-and-down ul-nav">
@@ -52,7 +52,7 @@
                                     class="theme-button enabled light-mode-btn"
                                     onclick="enableTheme('light', true)"
                                 >
-                                    <img src="../assets/images/light-switch.svg" alt="switch" class="mode-switch light-switch" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/light-switch.svg" alt="switch" class="mode-switch light-switch" />
                                 </div>
 
                                 <div
@@ -63,22 +63,22 @@
                                     class="theme-button dark-mode-btn"
                                     onclick="enableTheme('dark', true)"
                                 >
-                                    <img src="../assets/images/dark-switch.svg" alt="switch" class="mode-switch dark-switch" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/dark-switch.svg" alt="switch" class="mode-switch dark-switch" />
                                 </div>
                             </div>
                         </li>
                         <li>
                             <button class="nav-pry-btn black-bg btn pointer">
                                 Get the App 
-                                <img src="../assets/images/right-chevron.svg" alt="right-chevron" class="n-img-1 right-chevron" />
-                                <img src="../assets/images/right-chevron-black.svg" alt="right-chevron" class="n-img-2 right-chevron" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-chevron.svg" alt="right-chevron" class="n-img-1 right-chevron" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-chevron-black.svg" alt="right-chevron" class="n-img-2 right-chevron" />
                             </button>
                         </li>
                     </ul>
                     <ul class="right dn-mobile ul-nav">
                         <li class="menu-img-wrapper">
-                            <img src="../assets/images/menu.svg" alt="menu" data-target="slide-out" class="menu-img sidenav-trigger n-img-1" />
-                            <img src="../assets/images/menu-2.svg" alt="menu" data-target="slide-out" class="menu-img sidenav-trigger n-img-2" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/menu.svg" alt="menu" data-target="slide-out" class="menu-img sidenav-trigger n-img-1" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/menu-2.svg" alt="menu" data-target="slide-out" class="menu-img sidenav-trigger n-img-2" />
                         </li>
                     </ul>
                 </div>
@@ -88,8 +88,8 @@
         <ul id="slide-out" class="sidenav">
             <div class="close-sidenav-div">
                 <button class="sidenav-close">
-                    <img src="../assets/images/close-black.svg" alt="close side-nav" class="n-img-1" />
-                    <img src="../assets/images/close-yellow.svg" alt="close side-nav" class="n-img-2" />
+                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/close-black.svg" alt="close side-nav" class="n-img-1" />
+                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/close-yellow.svg" alt="close side-nav" class="n-img-2" />
                 </button>
             </div>
             <li class="big-navg-link">
@@ -134,7 +134,7 @@
                     class="theme-button enabled light-mode-btn"
                     onclick="enableTheme('light', true)"
                 >
-                    <img src="../assets/images/light-switch.svg" alt="switch" class="mode-switch light-switch" />
+                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/light-switch.svg" alt="switch" class="mode-switch light-switch" />
                 </div>
 
                 <div
@@ -145,19 +145,19 @@
                     class="theme-button dark-mode-btn"
                     onclick="enableTheme('dark', true)"
                 >
-                    <img src="../assets/images/dark-switch.svg" alt="switch" class="mode-switch dark-switch" />
+                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/dark-switch.svg" alt="switch" class="mode-switch dark-switch" />
                 </div>
             </div>
             <div class="appstore-container-mobile andriod-device">
                 <a class="download-link playstore-link" href="/" target="_blank" rel="noopener noreferrer">
-                    <img src="../assets/images/playstore-mobile-black.svg" alt="playstore" class="download-link-img n-img-1" />
-                    <img src="../assets/images/playstore-mobile-white.svg" alt="playstore" class="download-link-img n-img-2" />
+                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/playstore-mobile-black.svg" alt="playstore" class="download-link-img n-img-1" />
+                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/playstore-mobile-white.svg" alt="playstore" class="download-link-img n-img-2" />
                 </a>
             </div>
             <div class="appstore-container-mobile ios-device">
                 <a class="download-link appstore-link" href="/" target="_blank" rel="noopener noreferrer">
-                    <img src="../assets/images/appstore-mobile-black.svg" alt="appstore" class="download-link-img n-img-1" />
-                    <img src="../assets/images/appstore-mobile-white.svg" alt="appstore" class="download-link-img n-img-2" />
+                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/appstore-mobile-black.svg" alt="appstore" class="download-link-img n-img-1" />
+                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/appstore-mobile-white.svg" alt="appstore" class="download-link-img n-img-2" />
                 </a>
             </div>
         </ul>

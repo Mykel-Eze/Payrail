@@ -19,19 +19,19 @@
     display: none;
 }
 #urban-section {
-    background: url(../images/urban-sect-bg.jpg);
+    background: url(https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/urban-sect-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 #agency-section {
-    background: url(../images/agency-sect-bg.jpg);
+    background: url(https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/agency-sect-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 #business-section {
-    background: url(../images/business-sect-bg.jpg);
+    background: url(https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/business-sect-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

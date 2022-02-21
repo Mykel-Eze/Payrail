@@ -4,15 +4,15 @@
           <div class="container">
             <div class="flex-div justify-content-btw">
               <router-link to="/#" class="section-logo-link">
-                <img src="../assets/images/payrail-main-logo.svg" alt="payrail" class="section-logo">
+                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/payrail-main-logo.svg" alt="payrail" class="section-logo">
               </router-link>
               <div class="sound-and-signin flex-div">
                 <button class="audio-trigger">
-                  <img src="../assets/images/audio-icon-black.svg" alt="audio icon" class="audio-icon">
+                  <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/audio-icon-black.svg" alt="audio icon" class="audio-icon">
                 </button>
                 <router-link to="/#" class="flex-div">
                   <span>Sign in</span>
-                  <img src="../assets/images/right-arr-white.svg" alt="right arrow" class="right-arr">
+                  <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-arr-white.svg" alt="right arrow" class="right-arr">
                 </router-link>
               </div>
             </div>
@@ -21,7 +21,7 @@
 
         <div class="scroll-line flex-div">
           <span>Scroll</span>
-          <img src="../assets/images/line-2.svg" alt="line">
+          <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/line-2.svg" alt="line">
         </div>
 
         <section class="home-footer">

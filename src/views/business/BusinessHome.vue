@@ -16,7 +16,7 @@
 
                                 <button class="btn subscribe-submit pry-bg">
                                     <span class="visible-text-m-l">Get Started</span>
-                                    <!-- {/* <img src="../../assets/images/right-arrow.png" alt="right-arrow" class="hidden-text-m-l" /> */} -->
+                                    <!-- {/* <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-arrow.png" alt="right-arrow" class="hidden-text-m-l" /> */} -->
                                 </button>
                             </div>
                         </form>
@@ -33,16 +33,16 @@
                 </div>
                 <div class="container home-container rel">
                     <!-- <div>
-                        <img src="../../assets/images/business-home-banner.png" alt="business-home-banner" class="business-home-banner">
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/business-home-banner.png" alt="business-home-banner" class="business-home-banner">
                     </div> -->
                     <!-- <div class="col s12 m8 offset-m2 l6 offset-l0 rel" id="home-img-side">
                         <div class="phone-card-imgs hidden-xs">
-                            <img src="../../assets/images/phone-1.png" alt="phone 1" class="full-width pci-img" id="p-img-1" />
-                            <img src="../../assets/images/agency-card.png" alt="card" class="full-width pci-img" id="p-img-2" />
-                            <img src="../../assets/images/phone-2a.png" alt="phone 2" class="full-width pci-img" id="p-img-3" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/phone-1.png" alt="phone 1" class="full-width pci-img" id="p-img-1" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/agency-card.png" alt="card" class="full-width pci-img" id="p-img-2" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/phone-2a.png" alt="phone 2" class="full-width pci-img" id="p-img-3" />
                         </div>
                         <div class="visible-xs">
-                            <img src="../../assets/images/landing-section-images-2.png" alt="phone and hand" class="full-width" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/landing-section-images-2.png" alt="phone and hand" class="full-width" />
                         </div>
                     </div> -->
                 </div>
@@ -65,10 +65,10 @@
 
                         <div class="col s12 pad0 sect-contents">
                             <div class="col s12 l6 int-img-side text-center-xs" data-aos="fade-up">
-                                <img src="../../assets/images/int-img-1.png" alt="dashboard-laptop" class="int-img active-int-img">
-                                <img src="../../assets/images/int-img-2.png" alt="dashboard-laptop" class="int-img">
-                                <img src="../../assets/images/int-img-3.png" alt="dashboard-laptop" class="int-img">
-                                <img src="../../assets/images/int-img-4.png" alt="dashboard-laptop" class="int-img">
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/int-img-1.png" alt="dashboard-laptop" class="int-img active-int-img">
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/int-img-2.png" alt="dashboard-laptop" class="int-img">
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/int-img-3.png" alt="dashboard-laptop" class="int-img">
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/int-img-4.png" alt="dashboard-laptop" class="int-img">
                             </div>
 
                             <div class="col s12 l6 int-txt-side">
@@ -119,7 +119,7 @@
                             </p>
                         </div>
                         <div class="col s12 m6 right-align text-center-xs">
-                            <img src="../../assets/images/bizness-safe.png" alt="section-img" class="sect-img pf-safe-img" data-aos="fade-up" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/bizness-safe.png" alt="section-img" class="sect-img pf-safe-img" data-aos="fade-up" />
                         </div>
                     </div>
                 </div>
@@ -142,10 +142,10 @@
 
                         <div class="col s12 pad0 sect-contents marquee-content">
                             <div class="marquee-item">
-                                <img src="../../assets/images/full-img-gallery.png" alt="full-img-gallery" class="full-width" data-aos="fade-up">
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/full-img-gallery.png" alt="full-img-gallery" class="full-width" data-aos="fade-up">
                             </div>
                             <div class="marquee-item">
-                                <img src="../../assets/images/full-img-gallery.png" alt="full-img-gallery" class="full-width" data-aos="fade-up">
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/full-img-gallery.png" alt="full-img-gallery" class="full-width" data-aos="fade-up">
                             </div>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
                     </div>
                     <div class="col s12 pad0 sect-contents pf-flex-div">
                         <div class="col s12 m6 text-center-xs">
-                            <img src="../../assets/images/chat-list-img.png" alt="chat-img" class="sect-img pf-safe-img" data-aos="fade-up" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/chat-list-img.png" alt="chat-img" class="sect-img pf-safe-img" data-aos="fade-up" />
                         </div>
                         <div class="col s12 m6">
                             <h4 class="section-sub-title">We offer a wide range of products that any business can benefit from. </h4>
@@ -313,12 +313,12 @@
                             <span class="all-slide">2</span>
                         </div>
                         <div class="next-prev-wrapper flex-div hidden-xs">
-                            <img src="../../assets/images/left-slide.svg" alt="previous" class="prev-btn slide-btn" @click="prevFunc()">
-                            <img src="../../assets/images/right-slide.svg" alt="next" class="next-btn slide-btn" @click="nextFunc()">
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/left-slide.svg" alt="previous" class="prev-btn slide-btn" @click="prevFunc()">
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-slide.svg" alt="next" class="next-btn slide-btn" @click="nextFunc()">
                         </div>
                         <div class="next-prev-wrapper flex-div visible-xs">
-                            <img src="../../assets/images/left-slide.svg" alt="previous" class="prev-btn slide-btn" @click="prevFunc2()">
-                            <img src="../../assets/images/right-slide.svg" alt="next" class="next-btn slide-btn" @click="nextFunc2()">
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/left-slide.svg" alt="previous" class="prev-btn slide-btn" @click="prevFunc2()">
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-slide.svg" alt="next" class="next-btn slide-btn" @click="nextFunc2()">
                         </div>
                     </div>
                 </div>
@@ -332,7 +332,7 @@
                 <div class="container">
                     <div class="col s12 pad0">
                         <div class="col s12 m6 hidden-xs">
-                            <img src="../../assets/images/bizness-card-hand.png" alt="payrail debit card" class="full-width payrail-card-hand" data-aos="fade-up" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/bizness-card-hand.png" alt="payrail debit card" class="full-width payrail-card-hand" data-aos="fade-up" />
                         </div>
                         <div class="col s12 m6">
                             <div class="debit-cards-txt-div">
@@ -343,7 +343,7 @@
                             </div>
                         </div>
                         <div class="col s12 m6 visible-xs">
-                            <img src="../../assets/images/bizness-card-hand.png" alt="payrail debit card" class="full-width payrail-card-hand" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/bizness-card-hand.png" alt="payrail debit card" class="full-width payrail-card-hand" />
                         </div>
                     </div>
                 </div>

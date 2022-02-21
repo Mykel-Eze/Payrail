@@ -14,24 +14,24 @@
                         <div class="app-stores-wrapper hidden-xs-sm">
                             <div class="unknown-device">
                                 <button class="app-store google-store hover-scale">
-                                    <img src="../../assets/images/google-playstore.svg" alt="google store" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/google-playstore.svg" alt="google store" />
                                 </button>
                             </div>
                             <div class="unknown-device">
                                 <button class="app-store apple-store hover-scale">
-                                    <img src="../../assets/images/apple-appstore.svg" alt="apple store" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/apple-appstore.svg" alt="apple store" />
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m8 offset-m2 l6 offset-l0 rel" id="home-img-side">
                         <div class="phone-card-imgs hidden-xs">
-                            <img src="../../assets/images/phone-1.png" alt="phone 1" class="full-width pci-img" id="p-img-1" />
-                            <img src="../../assets/images/agency-card.png" alt="card" class="full-width pci-img" id="p-img-2" />
-                            <img src="../../assets/images/phone-2a.png" alt="phone 2" class="full-width pci-img" id="p-img-3" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/phone-1.png" alt="phone 1" class="full-width pci-img" id="p-img-1" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/agency-card.png" alt="card" class="full-width pci-img" id="p-img-2" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/phone-2a.png" alt="phone 2" class="full-width pci-img" id="p-img-3" />
                         </div>
                         <div class="visible-xs">
-                            <img src="../../assets/images/landing-section-images-2.png" alt="phone and hand" class="full-width" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/landing-section-images-2.png" alt="phone and hand" class="full-width" />
                         </div>
                     </div>
                 </div>
@@ -46,12 +46,12 @@
                         <div class="app-stores-wrapper flex-div">
                             <div class="unknown-device">
                                 <button class="app-store google-store hover-scale">
-                                    <img src="../../assets/images/google-playstore.svg" alt="google store" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/google-playstore.svg" alt="google store" />
                                 </button>
                             </div>
                             <div class="unknown-device">
                                 <button class="app-store apple-store hover-scale">
-                                    <img src="../../assets/images/apple-appstore.svg" alt="apple store" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/apple-appstore.svg" alt="apple store" />
                                 </button>
                             </div>
                         </div>
@@ -108,7 +108,7 @@
             <div class="row">
                 <div class="container">
                     <div class="col s12 m6">
-                        <img src="../../assets/images/agency-imgs-1.png" alt="section-img" class="sect-img" data-aos="fade-up" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/agency-imgs-1.png" alt="section-img" class="sect-img" data-aos="fade-up" />
                     </div>
                     <div class="col s12 m6">
                         <h3 class="sect-title">Cutting-edge <br /> Agency Banking</h3>
@@ -119,15 +119,15 @@
                         </p>
                         <ul class="sect-list s-list-1">
                             <li>
-                                <img src="../../assets/images/check.svg" alt="check mark" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check.svg" alt="check mark" />
                                 <span>We are the first and only truly INCLUSIVE Financial Services partner.</span>
                             </li>
                             <li>
-                                <img src="../../assets/images/check.svg" alt="check mark" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check.svg" alt="check mark" />
                                 <span>You get to make money on all transactions and impact lives by partnering with us. </span>
                             </li>
                             <li>
-                                <img src="../../assets/images/check.svg" alt="check mark" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check.svg" alt="check mark" />
                                 <span>Stay organised with multiple staff, agent and super agent and  for your business needs.</span>
                             </li>
                         </ul>
@@ -151,44 +151,44 @@
                         <div class="sec-list-grid">
                             <ul class="sect-list">
                                 <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check.svg" alt="check mark" />
                                     <span>Account Opening</span>
                                 </li>
                                 <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check.svg" alt="check mark" />
                                     <span>Funds Transfer </span>
                                 </li>
                                 <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check.svg" alt="check mark" />
                                     <span>Cash in/ Cash out</span>
                                 </li>
                                 <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check.svg" alt="check mark" />
                                     <span>Bill payments</span>
                                 </li>
                             </ul>
                             <ul class="sect-list">
                                 <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check.svg" alt="check mark" />
                                     <span>Value financing</span>
                                 </li>
                                 <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check.svg" alt="check mark" />
                                     <span>Insurance</span>
                                 </li>
                                 <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check.svg" alt="check mark" />
                                     <span>Group savings</span>
                                 </li>
                                 <li>
-                                    <img src="../../assets/images/check.svg" alt="check mark" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check.svg" alt="check mark" />
                                     <span>Asset financing.</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col s12 m6 right-align sect-center">
-                        <img src="../../assets/images/agency-imgs-2a.png" alt="section-img" class="sect-img" data-aos="fade-up" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/agency-imgs-2a.png" alt="section-img" class="sect-img" data-aos="fade-up" />
                     </div>
                 </div>
             </div>
@@ -223,25 +223,25 @@
             <div class="row">
                 <div class="container">
                     <div class="col s12 m6">
-                        <img src="../../assets/images/agency-imgs-3.png" alt="section-img" class="sect-img" data-aos="fade-up" />
+                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/agency-imgs-3.png" alt="section-img" class="sect-img" data-aos="fade-up" />
                     </div>
                     <div class="col s12 m6 sec-mag-down">
                         <h3 class="sect-title">Do business with confidence</h3>
                         <ul class="sect-list">
                             <li>
-                                <img src="../../assets/images/check.svg" alt="check mark" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check.svg" alt="check mark" />
                                 <span>
                                     Payrail guarantees the greatest infrastructure, the best pricing, a stable network.
                                 </span>
                             </li>
                             <li>
-                                <img src="../../assets/images/check.svg" alt="check mark" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check.svg" alt="check mark" />
                                 <span>
                                     We offer multilingual customer friendly support 24 /7 for both individual and business owners.
                                 </span>
                             </li>
                             <li>
-                                <img src="../../assets/images/check.svg" alt="check mark" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/check.svg" alt="check mark" />
                                 <span>
                                     Your safety is our top priority, thus your money and personal information are safe with us 
                                     and will never be shared with third parties.
@@ -269,8 +269,8 @@
                     <div class="testimony-wrapper hidden-xs">
                         <div class="testimony-block" data-aos="fade-up">
                             <div class="flex-div review-title">
-                                <img src="../../assets/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
-                                <img src="../../assets/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
                                 <span class="bold">Trusted and Reliable Service</span>
                             </div>
                             <div class="review-container">
@@ -288,8 +288,8 @@
                         </div>
                         <div class="testimony-block" data-aos="fade-up">
                             <div class="flex-div review-title">
-                                <img src="../../assets/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
-                                <img src="../../assets/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
                                 <span class="bold">Instant Transaction Settlement</span>
                             </div>
                             <div class="review-container">
@@ -307,8 +307,8 @@
                         </div>
                         <div class="testimony-block" data-aos="fade-up">
                             <div class="flex-div review-title">
-                                <img src="../../assets/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
-                                <img src="../../assets/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
                                 <span class="bold">Enjoying Lowest Charges</span>
                             </div>
                             <div class="review-container">
@@ -328,8 +328,8 @@
                     <div class="carousel testimony-wrapper visible-xs">
                         <div class="testimony-block carousel-item">
                             <div class="flex-div review-title">
-                                <img src="../../assets/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
-                                <img src="../../assets/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
                                 <span class="bold">Trusted and Reliable Service</span>
                             </div>
                             <div class="review-container">
@@ -347,8 +347,8 @@
                         </div>
                         <div class="testimony-block carousel-item">
                             <div class="flex-div review-title">
-                                <img src="../../assets/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
-                                <img src="../../assets/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
                                 <span class="bold">Instant Transaction Settlement</span>
                             </div>
                             <div class="review-container">
@@ -366,8 +366,8 @@
                         </div>
                         <div class="testimony-block carousel-item">
                             <div class="flex-div review-title">
-                                <img src="../../assets/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
-                                <img src="../../assets/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/review-points.svg" alt="points" class="review-title-icon rti-1" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/review-points-2.svg" alt="points" class="review-title-icon rti-2" />
                                 <span class="bold">Enjoying Lowest Charges</span>
                             </div>
                             <div class="review-container">
@@ -395,42 +395,42 @@
                     <div class="partners-sect-wrapper center col s12 l10 offset-l1">
                         <h4 class="sect-title">Our esteemed partners</h4>
                         <!-- <div class="">
-                            <img src="../../assets/images/partners-all.png" alt="our partners" class="full-img" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/partners-all.png" alt="our partners" class="full-img" />
                         </div> -->
                         <div class="partners-wrapper hidden-xs">
                             <a href="http://" target="_blank" rel="noopener noreferrer" class="partner-link">
-                                <img src="../../assets/images/winrock.png" alt="winrock" class="full-img" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/winrock.png" alt="winrock" class="full-img" />
                             </a>
                             <a href="http://" target="_blank" rel="noopener noreferrer" class="partner-link">
-                                <img src="../../assets/images/usaid.png" alt="usaid" class="full-img" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/usaid.png" alt="usaid" class="full-img" />
                             </a>
                             <a href="http://" target="_blank" rel="noopener noreferrer" class="partner-link">
-                                <img src="../../assets/images/mercycorps.png" alt="mercycorps" class="full-img" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/mercycorps.png" alt="mercycorps" class="full-img" />
                             </a>
                             <a href="http://" target="_blank" rel="noopener noreferrer" class="partner-link">
-                                <img src="../../assets/images/japtini.png" alt="japtini" class="full-img" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/japtini.png" alt="japtini" class="full-img" />
                             </a>
                             <a href="http://" target="_blank" rel="noopener noreferrer" class="partner-link">
-                                <img src="../../assets/images/alluvial.png" alt="alluvial" class="full-img" />
+                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/alluvial.png" alt="alluvial" class="full-img" />
                             </a>
                         </div>
                         
                         <div class="visible-xs partners-wrapper-mobile">
                             <div class="partners-wrapper">
                                 <a href="http://" target="_blank" rel="noopener noreferrer" class="partner-link">
-                                    <img src="../../assets/images/winrock.png" alt="winrock" class="full-img" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/winrock.png" alt="winrock" class="full-img" />
                                 </a>
                                 <a href="http://" target="_blank" rel="noopener noreferrer" class="partner-link">
-                                    <img src="../../assets/images/usaid.png" alt="usaid" class="full-img" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/usaid.png" alt="usaid" class="full-img" />
                                 </a>
                                 <a href="http://" target="_blank" rel="noopener noreferrer" class="partner-link">
-                                    <img src="../../assets/images/mercycorps.png" alt="mercycorps" class="full-img" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/mercycorps.png" alt="mercycorps" class="full-img" />
                                 </a>
                                 <a href="http://" target="_blank" rel="noopener noreferrer" class="partner-link">
-                                    <img src="../../assets/images/japtini.png" alt="japtini" class="full-img" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/japtini.png" alt="japtini" class="full-img" />
                                 </a>
                                 <a href="http://" target="_blank" rel="noopener noreferrer" class="partner-link">
-                                    <img src="../../assets/images/alluvial.png" alt="alluvial" class="full-img" />
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/alluvial.png" alt="alluvial" class="full-img" />
                                 </a>
                             </div>
                         </div>
@@ -446,7 +446,7 @@
                 <div class="container">
                     <div class="col s12 pad0">
                         <div class="col s12 m6 hidden-xs">
-                            <img src="../../assets/images/agency-card-hand.png" alt="payrail debit card" class="full-width payrail-card-hand" data-aos="fade-up" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/agency-card-hand.png" alt="payrail debit card" class="full-width payrail-card-hand" data-aos="fade-up" />
                         </div>
                         <div class="col s12 m6">
                             <div class="debit-cards-txt-div">
@@ -457,7 +457,7 @@
                             </div>
                         </div>
                         <div class="col s12 m6 visible-xs">
-                            <img src="../../assets/images/agency-card-hand.png" alt="payrail debit card" class="full-width payrail-card-hand" />
+                            <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/agency-card-hand.png" alt="payrail debit card" class="full-width payrail-card-hand" />
                         </div>
                     </div>
                 </div>
@@ -475,12 +475,12 @@
                             <div class="app-stores-wrapper flex-div">
                                 <div class="">
                                     <button class="app-store google-store hover-scale">
-                                        <img src="../../assets/images/google-playstore.svg" alt="google store" />
+                                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/google-playstore.svg" alt="google store" />
                                     </button>
                                 </div>
                                 <div class="">
                                     <button class="app-store apple-store hover-scale">
-                                        <img src="../../assets/images/apple-appstore.svg" alt="apple store" />
+                                        <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/apple-appstore.svg" alt="apple store" />
                                     </button>
                                 </div>
                             </div>
