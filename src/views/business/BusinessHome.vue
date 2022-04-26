@@ -10,9 +10,9 @@
                         into an all-inclusive <span class="pry-color">banking service that works.</span>
                     </p>
                     <div class="subscribe-form-wrapper">
-                        <form action="https://business.payrail.co/signup/verify/email" method="get" target="_blank" id="subscribe-form">
+                        <form action="https://business.payrail.co/signup" method="get" target="_blank" id="subscribe-form">
                             <div class="flex-div input-field">
-                                <input id="subscriber-email" placeholder="Your Email..." type="email" required />
+                                <input name="email" id="subscriber-email" placeholder="Your Email..." type="email" required />
 
                                 <button class="btn subscribe-submit pry-bg">
                                     <span class="visible-text-m-l">Get Started</span>
@@ -363,9 +363,9 @@
                             
                             <div class="col s12 l5">
                                 <div class="subscribe-form-wrapper">
-                                    <form action="https://business.payrail.co/signup/verify/email" method="get" target="_blank" id="subscribe-form-2">
+                                    <form action="https://business.payrail.co/signup" method="get" target="_blank" id="subscribe-form-2">
                                         <div class="flex-div input-field">
-                                            <input id="subscriber-email-2" placeholder="Your Email..." type="email" required />
+                                            <input name="email" id="subscriber-email-2" placeholder="Your Email..." type="email" required />
                                             
                                             <button class="btn subscribe-submit pry-bg">Get Started</button>
                                         </div>
