@@ -10,7 +10,7 @@
                         into an all-inclusive <span class="pry-color">banking service that works.</span>
                     </p>
                     <div class="subscribe-form-wrapper">
-                        <form action="#" id="subscribe-form" onSubmit="SaveEmails">
+                        <form action="https://business.payrail.co/signup/verify/email" method="get" target="_blank" id="subscribe-form">
                             <div class="flex-div input-field">
                                 <input id="subscriber-email" placeholder="Your Email..." type="email" required />
 
@@ -363,7 +363,7 @@
                             
                             <div class="col s12 l5">
                                 <div class="subscribe-form-wrapper">
-                                    <form action="#" id="subscribe-form-2" onSubmit={SaveEmails}>
+                                    <form action="https://business.payrail.co/signup/verify/email" method="get" target="_blank" id="subscribe-form-2">
                                         <div class="flex-div input-field">
                                             <input id="subscriber-email-2" placeholder="Your Email..." type="email" required />
                                             

@@ -68,10 +68,12 @@
                             </div>
                         </li>
                         <li>
-                            <button class="nav-pry-btn black-bg btn pointer">
-                                Get Started
-                                <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-chevron-white.svg" alt="right-chevron" class="right-chevron" />
-                            </button>
+                            <a href="https://business.payrail.co/" target="_blank">
+                                <button class="nav-pry-btn black-bg btn pointer">
+                                    Get Started
+                                    <img src="https://websites-images-1.s3.us-east-2.amazonaws.com/payrail-images/images/right-chevron-white.svg" alt="right-chevron" class="right-chevron" />
+                                </button>
+                            </a>
                         </li>
                     </ul>
                     <ul class="right dn-mobile ul-nav">
